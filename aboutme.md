@@ -6,7 +6,7 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-  Hi, my name is <strong>Vinay Kumar Gond</strong>, I am an Artificial General Intelligence Software Engineering Student From NATIONAL INSTITUTE OF TECHNOLOGY KARNATAKA(NITK). I hail from Gorakhpur, Uttar Pradesh, India.
+  Hi, my name is <strong>Vinay Kumar Gond</strong>, I am an Artificial General Intelligence Software Engineering Student From NATIONAL INSTITUTE OF TECHNOLOGY. I hail from Gorakhpur, Uttar Pradesh, India.
 </p>
 
 <p class="about-text">
