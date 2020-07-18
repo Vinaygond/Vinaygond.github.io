@@ -11,7 +11,8 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I am a programmer, python developer and my interests lie in Machine Learning, Natural Language Processing, Computer Vision and Deep Learning.
+I am a programmer, python developer and my interests lie in Machine Learning, Natural Language Processing, Computer Vision and a Deep Learning rookie.
+  Aim to utilize my skill to push the boundaries of AI research and that's it.
 </p>
 
 <p class="about-text">
