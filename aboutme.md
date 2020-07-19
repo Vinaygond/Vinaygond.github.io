@@ -6,13 +6,13 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-  Hi, my name is <strong>Vinay Kumar Gond</strong>, I am an Artificial General Intelligence Software Engineering Student From NATIONAL INSTITUTE OF TECHNOLOGY. I hail from Gorakhpur, Uttar Pradesh, India.
+  Hi, my name is <strong>Vinay Kumar Gond</strong>, I grew up in India with my parents Poonam and Bidhichand, and my brother Aman & sister Neha. I am an Artificial General Intelligence Software Engineering Student From NATIONAL INSTITUTE OF TECHNOLOGY.
 </p>
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
 I am a programmer, python developer and my interests lie in Machine Learning, Natural Language Processing, Computer Vision and a Deep Learning rookie.
-  Aim to utilize my skill to push the boundaries of AI research and that's it.
+  Aim to utilize my skill to push the boundaries of AI research. Since an early age I’ve been obsessed with computers, programming, and electronics. As a child I wanted to uncover the mystery and learn how things worked and that's it.
 </p>
 
 <p class="about-text">
