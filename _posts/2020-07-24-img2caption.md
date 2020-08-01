@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Object Detection
+image: img/img.jpg
+image: img/img.jpg
 subtitle: Detecting your custom objects!
 tags: [img2caption, data science]
 ---
