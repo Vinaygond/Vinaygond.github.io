@@ -7,6 +7,7 @@ subtitle: PROGRAMMING LANGUAGES | TOOLS/FRAMEWORKS
 
 - Python
 - C
+- Dart
 - MySQL
 - HTML / CSS / Sass
 - Markdown
@@ -22,3 +23,4 @@ subtitle: PROGRAMMING LANGUAGES | TOOLS/FRAMEWORKS
 - Pandas
 - Scikit-learn
 - Tensorflow
+- Keras
