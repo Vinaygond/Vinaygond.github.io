@@ -27,6 +27,7 @@ navbar-links:
   Technical Skills: 'technicalskills'
   Publications: 'publications'
   #My Resume: 'Resume.pdf'
+  Contact: 'contacts'
   About Me: 'aboutme'
   # Dropdown menu in Navbar
   # Resources:
