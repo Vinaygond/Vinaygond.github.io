@@ -6,8 +6,7 @@ subtitle: PROGRAMMING LANGUAGES | TOOLS/FRAMEWORKS
 ## Languages:
 
 - Python
-- C
-- Dart
+- JavaScripts
 - MySQL
 - HTML / CSS / Sass
 - Markdown
