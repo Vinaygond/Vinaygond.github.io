@@ -28,7 +28,7 @@ navbar-links:
   Publications: 'publications'
   #My Resume: 'Resume.pdf'
   About Me: 'aboutme'
-  Contact: 'contacts'
+  Contact: 'contact'
   # Dropdown menu in Navbar
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
