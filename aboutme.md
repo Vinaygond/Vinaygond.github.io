@@ -38,4 +38,4 @@ What else do you need?
 
 ### My hobbies
 
-To be honest, I just have two hobbies: programming and biking.
+To be honest, I just have two hobbies: hip-hop, programming and biking.
