@@ -17,7 +17,7 @@ I am a programmer, python developer and my interests lie in Machine Learning, Na
 
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
-I am passionate for coding, love photography, like listening to EDM and pop music, a foodie, interested in latest technology trends, AI and gaming. I watch a lot of TV series, Anime and sci-fi movies. Die-hard fan of Laker.
+I am passionate for coding, love photography, like listening to hip-hop music, a foodie, interested in latest technology trends, AI and gaming. I watch a lot of TV series, and sci-fi movies. Die-hard fan of Laker.
 </p>
 
 <p class="about-text">
