@@ -14,7 +14,7 @@ navbar-links:
   Publications: 'publications'
   #My Resume: 'Resume.pdf'
   About Me: 'aboutme'
-  Contact: 'contact'
+  # Contact: 'contact'
   # Dropdown menu in Navbar
   # Resources:
   #   - Learn markdown: "http://www.markdowntutorial.com/"
