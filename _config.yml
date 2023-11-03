@@ -41,18 +41,19 @@ author:
 
 social-network-links:
   rss: true
-  email: 'vinaycse2018@gmail.com'
+  email: 'vinay@wandersspot.com'
   #facebook: 
   #github: 
-  twitter: TopVKGO
+  #twitter: TopVKGO
   #  reddit: yourname
+  instagram: mrvinaygond
  
 share-links-active:
   twitter: true
   facebook: false
   google: true
   linkedin: false
-  instagram: false
+  instagram: true
 
 
 disqus: 'vinay'
