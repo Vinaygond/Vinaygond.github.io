@@ -6,7 +6,7 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-  Hi, my name is <strong>Vinay</strong>, I grew up in India with my parents Poonam and Bidhichand, and my brother Aman & sister Neha. I am an Artificial General Intelligence Software Engineering Student From NATIONAL INSTITUTE OF TECHNOLOGY.
+  Hi, my name is <strong>Vinay</strong>, I grew up in India with my parents Poonam and Bidhichand, and my brother Aman & sister Neha. I am an Artificial General Intelligence Software Engineering Student From IIT-BHU.
 </p>
 
 <p class="about-text">
