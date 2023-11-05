@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WandersSpot
+title: WandersSpot is LIVE now!
 subtitle: Your go-to travel companion 🌍
 cover-img: img/cities.png
 tags: [Travel, Destination]
