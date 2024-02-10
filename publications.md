@@ -38,8 +38,8 @@ This way, the platform empowers creators while providing a more sustainable and 
 **Citations**
 
 1. How OnlyFans Content Creators Can Protect Their Content From Unauthorized Leaks (22 (4 (2023))). LegalScoops. https://www.legalscoops.com/onlyfans-leaks/. Accessed 8.2.2024.
-1. The Anatomy of Leaked OnlyFans Content: Methods, Perpetra... (29 (8 (2023))). theinfluencerforum.com. https://theinfluencerforum.com/the-anatomy-of-leaked-onlyfans-content-methods-perpetrators-pr evention/. Accessed 8.2.2024.
+1. The Anatomy of Leaked OnlyFans Content: Methods, Perpetra... (29 (8 (2023))). theinfluencerforum.com. https://theinfluencerforum.com/the-anatomy-of-leaked-onlyfans-content-methods-perpetrators-prevention/. Accessed 8.2.2024.
 3. Grant, Hugh. OnlyFans Leaks: Unraveling the Truth Behind the Controversy (22 (4 (2023))). TechBullion. https://techbullion.com/onlyfans-leaks-unraveling-the-truth-behind-the-controversy/. Accessed 8.2.2024.
 3. How OnlyFans Affects Mental Health (3 (10 (2023))). supercreator.app. https://supercreator.app/academy/guides/onlyfans-mental-health/. Accessed 8.2.2024.
-3. Chen, Alan. How much income does an OnlyFans creator lose if their content gets leaked? (24 (4 (2023))). FreeCashFlow.io. https://freecashflow.io/blog/how-much-income-does-an-onlyfans-creator-lose-if-their-content-get s-leaked/. Accessed 8.2.2024.
-3. Travers, Mark. A Psychologist Digs Into The Mental Health Repercussions Of OnlyFans Stardom (17 (4 (2023))). Forbes. https://www.forbes.com/sites/traversmark/2023/04/17/a-psychologist-digs-into-the-mental-health -repercussions-of-onlyfans-stardom/. Accessed 8.2.2024.
+3. How much income does an OnlyFans creator lose if their content gets leaked? (24 (4 (2023))). FreeCashFlow.io. https://freecashflow.io/blog/how-much-income-does-an-onlyfans-creator-lose-if-their-content-gets-leaked/. Accessed 8.2.2024.
+3. A Psychologist Digs Into The Mental Health Repercussions Of OnlyFans Stardom (17 (4 (2023))). Forbes. https://www.forbes.com/sites/traversmark/2023/04/17/a-psychologist-digs-into-the-mental-health-repercussions-of-onlyfans-stardom/. Accessed 8.2.2024.
