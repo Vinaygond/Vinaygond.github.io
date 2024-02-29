@@ -47,12 +47,13 @@ social-network-links:
   #twitter: TopVKGO
   #  reddit: yourname
   instagram: thevclass
+  linkwdin: https://www.linkedin.com/in/vinaygo/
  
 share-links-active:
   twitter: true
   facebook: false
   google: true
-  linkedin: false
+  linkedin: true
   instagram: true
 
 
