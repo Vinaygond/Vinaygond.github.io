@@ -67,3 +67,11 @@ While the **Twitter Scraper Tool** offers powerful capabilities, it’s crucial 
 ## Conclusion
 
 The **Twitter Scraper Tool** is an indispensable asset for businesses looking to maximize their Twitter outreach efforts. Its ability to collect vast amounts of data, precisely target audiences, and automate personalized outreach makes it a game-changer in the world of social media marketing. While it’s important to use this tool ethically, its capabilities can provide a significant competitive advantage when used responsibly.
+
+## Note
+
+Since it is flagged as a malware by **Twitter(X)** so only basic info are provided 
+
+And licensing is being provided through direct contacts only for $5000 each individual for lifetime
+
+## Vinay :)
