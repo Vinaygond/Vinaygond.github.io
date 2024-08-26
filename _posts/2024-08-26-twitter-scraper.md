@@ -72,6 +72,6 @@ The **Twitter Scraper Tool** is an indispensable asset for businesses looking to
 
 Since it is flagged as a malware by **Twitter(X)** so only basic info are provided 
 
-And licensing is being provided through direct contacts only for $5000 each individual for lifetime
+And licensing is being provided through direct contacts only for **$5000** each individual for lifetime
 
 ## Vinay :)
