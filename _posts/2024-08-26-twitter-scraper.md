@@ -74,6 +74,7 @@ Since it is flagged as a malware by **Twitter(X)** so only basic info are provid
 
 And licensing is being provided through direct contacts only for **$5000** each individual for lifetime
 
-Contact- xleadscraper@tutanota.com
+mailto- xleadscraper@tutanota.com
+
 
 -vinay :)
