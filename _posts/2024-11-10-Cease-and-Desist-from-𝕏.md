@@ -49,7 +49,7 @@ But here’s the thing: I don’t regret a second of it.
 That cease-and-desist wasn’t just a threat—it was proof that I’d built something powerful enough to get the attention of one of the biggest companies in the world. It validated everything I’d been working toward.
 
 Sure, I can’t share testimonials or public social proof because of legal restrictions, but the numbers speak for themselves: **Hundreds of licenses sold, $500K in revenue, and countless businesses transformed.**
-![worth license](https://media.licdn.com/dms/image/v2/D5622AQHUFNQl3nyc5w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733009813933?e=2147483647&v=beta&t=xYqNmFhgdEb7uhMvcpNq18ilpBfaK4KimvUdwM8oldQ)
+![worth license](https://media.licdn.com/dms/image/v2/D5622AQHuF80HOe-TJQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733008674885?e=2147483647&v=beta&t=K4R56rP6zyyoWqA7OTaXdP-IqeS2CI9fQk5w2jOIzNA)
 
 Now, I’m pivoting. The tool as it was might be dead, but the vision isn’t. I’m working on new ways to help businesses grow, focusing on strategies that work within the rules but still deliver game-changing results.
 
