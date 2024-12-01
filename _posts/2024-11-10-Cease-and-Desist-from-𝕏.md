@@ -1,8 +1,8 @@
 ---
-title: "The $500K Tool That Got Me a Cease-and-Desist from X"
+title: "The $500K Tool That Got Me a Cease-and-Desist from 𝕏"
 date: "2024-11-10"
 author: "Vinay Kumar Gond"
-description: "How I turned $15 into $500K with a lead-scraping tool that got the attention—and legal wrath—of X (formerly Twitter)."
+description: "How I turned $15 into $500K with a lead-scraping tool that got the attention—and legal wrath—of 𝕏 (formerly Twitter)."
 ---
 
 # The $500K Tool That Got Me a Cease-and-Desist from X
@@ -11,17 +11,17 @@ I wasn’t trying to break the rules—I was just trying to survive.
 
 A few months ago, I had $15 in my bank account, a toddler to take care of, and the gnawing feeling that I was running out of options. I live in a place where opportunities don’t come easy. Payments are hard to collect, tools and platforms are geo-restricted, and even when you have talent, the global market feels just out of reach.
 
-But one thing I knew for sure? **Social media is where the money is.** Specifically, X (formerly Twitter). Brands, creators, marketers—they all need to get their message out, and I saw an opportunity there.  
+But one thing I knew for sure? **Social media is where the money is.** Specifically, 𝕏 (formerly Twitter). Brands, creators, marketers—they all need to get their message out, and I saw an opportunity there.  
 
 The problem was, nobody had cracked the code for scaling outreach effectively.
 
 That’s where my story begins.
 
-I’m a developer by trade, so when the idea hit me, I spent days obsessing over it. What if there was a way to target leads on X *with absolute precision*? What if you could find the exact people who’d want to buy what you’re selling and message them all in one go? No spam, no guessing—just a clean, focused strategy.
+I’m a developer by trade, so when the idea hit me, I spent days obsessing over it. What if there was a way to target leads on 𝕏 *with absolute precision*? What if you could find the exact people who’d want to buy what you’re selling and message them all in one go? No spam, no guessing—just a clean, focused strategy.
 
 So I rolled up my sleeves, opened my laptop, and started building.
 
-The process wasn’t glamorous—lots of trial and error, late nights, and caffeine-fueled coding sessions. I had no budget, no team, and no resources—just determination and a problem I was hell-bent on solving. After a few months of pushing myself to the limit, I finally had something: a tool that could scrape millions of profiles from X and automate personalized outreach.
+The process wasn’t glamorous—lots of trial and error, late nights, and caffeine-fueled coding sessions. I had no budget, no team, and no resources—just determination and a problem I was hell-bent on solving. After a few months of pushing myself to the limit, I finally had something: a tool that could scrape millions of profiles from 𝕏 and automate personalized outreach.
 
 At first, I wasn’t sure if it would work. But when I tested it on a small campaign, the results blew my mind. **In just days, I saw conversions that I’d never thought were possible.** People started responding. Deals started closing. The tool worked.
 
