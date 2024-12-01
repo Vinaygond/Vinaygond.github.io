@@ -1,6 +1,6 @@
 ---
 title: "The $500K Tool That Got Me a Cease-and-Desist from X"
-date: "2024-12-01"
+date: "2024-11-10"
 author: "Vinay Kumar Gond"
 description: "How I turned $15 into $500K with a lead-scraping tool that got the attention—and legal wrath—of X (formerly Twitter)."
 ---
