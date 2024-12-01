@@ -5,7 +5,7 @@ author: "Vinay Kumar Gond"
 description: "How I turned $15 into $500K with a lead-scraping tool that got the attention—and legal wrath—of 𝕏 (formerly Twitter)."
 ---
 
-# The $500K Tool That Got Me a Cease-and-Desist from X
+# The $500K Tool That Got Me a Cease-and-Desist from 𝕏
 
 I wasn’t trying to break the rules—I was just trying to survive.
 
