@@ -33,7 +33,7 @@ By the time summer hit, I’d sold hundreds of licenses and made over $500K. It 
 
 But then came the storm.
 
-In November, I woke up to an ![email](https://media.licdn.com/dms/image/v2/D5622AQHMhDl3GIHwDw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732183388207?e=2147483647&v=beta&t=-Vjq8b_X5Bi59Qto1NCwaP3v4x5swqsvRSEJrynUxEg) from 𝕏’s legal team—a cease-and-desist letter. And it wasn’t just a slap on the wrist; it was a 13-page document outlining every way I’d violated their Terms of Service and federal laws. They accused me of unauthorized data scraping, breaking the Computer Fraud and Abuse Act, and other things I couldn’t even pronounce.
+![email](https://media.licdn.com/dms/image/v2/D5622AQHMhDl3GIHwDw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732183388207?e=2147483647&v=beta&t=-Vjq8b_X5Bi59Qto1NCwaP3v4x5swqsvRSEJrynUxEg) In November, I woke up to an email from 𝕏’s legal team—a cease-and-desist letter. And it wasn’t just a slap on the wrist; it was a 13-page document outlining every way I’d violated their Terms of Service and federal laws. They accused me of unauthorized data scraping, breaking the Computer Fraud and Abuse Act, and other things I couldn’t even pronounce.
 
 They even quoted my tweets, where I (foolishly) bragged about the tool’s capabilities:  
 
