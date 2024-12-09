@@ -58,3 +58,5 @@ The journey hasn’t been easy, but if there’s one thing I’ve learned, it’
 So, to anyone out there grinding, building, and hustling—don’t let fear hold you back. The world rewards boldness.
 
 This isn’t the end of my story. It’s just the beginning.
+
+Featured on [SWAPD](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648)
