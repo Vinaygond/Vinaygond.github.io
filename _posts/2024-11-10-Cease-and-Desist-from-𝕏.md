@@ -60,3 +60,4 @@ So, to anyone out there grinding, building, and hustling—don’t let fear hold
 This isn’t the end of my story. It’s just the beginning.
 
 Featured on: | [SWAPD](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648) | [BlackHat World](https://www.blackhatworld.com/seo/im-the-guy-behind-the-500k-tool-that-got-a-cease-and-desist-from-x-twitter.1667435/)
+
