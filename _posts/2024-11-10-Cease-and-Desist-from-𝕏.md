@@ -89,9 +89,9 @@ Build. Disrupt. Win.
 
 Don’t fold under pressure. Let them hate from the sidelines—because that’s exactly where they’ll stay.  
 
-This isn’t the end of my story.  
+This isn’t the end of my story—It’s just the beginning. 
 
-It’s just the beginning. Thanks for sticking around this far.  
+Thanks for sticking around this far.  
 
 Good day 👋🏻  
 
