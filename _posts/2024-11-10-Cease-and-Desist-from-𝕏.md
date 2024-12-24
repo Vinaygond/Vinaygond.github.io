@@ -33,19 +33,19 @@ The biggest hurdle? The normal API access wasn’t enough. I kept hitting rate l
 
 I didn’t have $42K. So, I borrowed money from family, took out loans, and went all in.  
 
-And because of the nature of the tool, I couldn’t put it out there publicly. It wasn’t just a technical challenge—it was illegal. I had to stay low-key, reaching out directly to people who needed it most. The only thing I knew was this: *just get the job done, even if it’s illegal.*  
-
-
 After months of grinding, I finally had something groundbreaking: a tool that could scrape millions of profiles from 𝕏, automate personalized outreach, and deliver results like nothing else.  
 
 But would it work?  
 
-I tested it on a small campaign, and the results blew my mind. Responses flooded in. Deals started closing. The tool was a game-changer.  
+I tested it on a small campaign, and the results blew my mind. 
 
-To make it sustainable, I priced it at $4,997 per license. It wasn’t cheap, but businesses saw the value immediately. Most made back their investment after a single campaign.  
+I knew I had something big on my hands, so I decided to package it and sell licenses to marketers, agencies, and creators. I set the price high because I believed in the value it provided—$4,997 for a license.
+
+And because of the nature of the tool, I couldn’t put it out there publicly. It wasn’t just a technical challenge—it was illegal. I had to stay low-key, reaching out directly to people who needed it most. The only thing I knew was this: *just get the job done, even if it’s illegal.*    
+
+Price $4,997 per license. It wasn’t cheap, but businesses saw the value immediately. Most made back their investment after a single campaign.  
 
 Within weeks, I sold dozens of licenses. By summer, I had sold hundreds, making over $500K in revenue.  
-
 
 This tool wasn’t just software—it became a movement.  
 
