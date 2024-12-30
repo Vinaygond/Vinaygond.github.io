@@ -96,7 +96,10 @@ Thanks for sticking around this far.
 Good day 👋🏻  
 
 ---  
+## Featured on:
 
-Featured on: | [SWAPD](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648) | [BlackHat World](https://www.blackhatworld.com/seo/im-the-guy-behind-the-500k-tool-that-got-a-cease-and-desist-from-x-twitter.1667435/)
+[<img src="https://files.uploads-us4.communiteq-cloud.com/uploads/db6033/original/4X/5/3/8/538152f8143d8f63f27e66b49233ebe042a34e24.png">](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648) **and** [<img src="https://www.blackhatworld.com/styles/BHWForumImages/760x200/bhwlogo-dark-transparent.png">](https://www.blackhatworld.com/seo/im-the-guy-behind-the-500k-tool-that-got-a-cease-and-desist-from-x-twitter.1667435/post-18622938)
+
 
 ---
+
