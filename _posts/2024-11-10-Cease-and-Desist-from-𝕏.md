@@ -98,8 +98,7 @@ Good day 👋🏻
 ---  
 ## Featured on:
 
-[<img src="https://files.uploads-us4.communiteq-cloud.com/uploads/db6033/original/4X/5/3/8/538152f8143d8f63f27e66b49233ebe042a34e24.png">](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648) **and** [<img src="https://www.blackhatworld.com/styles/BHWForumImages/760x200/bhwlogo-dark-transparent.png">](https://www.blackhatworld.com/seo/im-the-guy-behind-the-500k-tool-that-got-a-cease-and-desist-from-x-twitter.1667435/post-18622938)
-
+[<img src="https://files.uploads-us4.communiteq-cloud.com/uploads/db6033/optimized/4X/8/b/6/8b610d500dfdf347b7a8fade8ea46ced10fd77dd_2_32x32.png">](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648) **&** [<img src="https://www.blackhatworld.com/styles/BHWForumImages/Favicon.png">](https://www.blackhatworld.com/seo/im-the-guy-behind-the-500k-tool-that-got-a-cease-and-desist-from-x-twitter.1667435/post-18622938)
 
 ---
 
