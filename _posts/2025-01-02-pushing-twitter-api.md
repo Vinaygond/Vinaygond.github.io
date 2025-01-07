@@ -2,6 +2,8 @@
 
 In 2023, I set out on a mission to automate outreach on 𝕏 (formerly Twitter). What began as a small experiment quickly turned into an obsession. I wanted to see just how far I could push the boundaries—scraping millions of profiles, analyzing data with pinpoint accuracy, and building tools that could change the game for marketers and businesses alike.  
 
+![email](https://media.licdn.com/dms/image/v2/D5622AQFSUiED98sxmQ/feedshare-shrink_800/B56ZRCgvh2HIAg-/0/1736282668598?e=2147483647&v=beta&t=t-Hq-K4YLhD7pmtVtRXjn3dZFT2MfAhb9asrCotM1ns)
+
 ## The Challenge: Scaling Outreach with Precision  
 
 Social media is where the money is, but reaching the right audience at scale is no easy task. The existing tools were either ineffective, overly generic, or downright spammy. That’s when I decided to take matters into my own hands.  
