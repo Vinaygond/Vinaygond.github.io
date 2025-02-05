@@ -16,7 +16,7 @@ In 2024, I built a tool that could:
 - Send 10K DMs with one click
 
 It generated **$500K** in few months...  
-...and then came the [cease and desist letter](https://media.licdn.com/dms/image/v2/D5622AQHuF80HOe-TJQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733008674885?e=2147483647&v=beta&t=K4R56rP6zyyoWqA7OTaXdP-IqeS2CI9fQk5w2jOIzNA)) from X Corp.
+...and then came the [cease and desist letter](https://media.licdn.com/dms/image/v2/D5622AQHuF80HOe-TJQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733008674885?e=2147483647&v=beta&t=K4R56rP6zyyoWqA7OTaXdP-IqeS2CI9fQk5w2jOIzNA) from X Corp.
 
 This wasn't just about code - it was about **ethics**, **responsibility**, and understanding that:
 
