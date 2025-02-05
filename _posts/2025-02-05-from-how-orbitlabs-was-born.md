@@ -3,7 +3,7 @@ title: "From Crisis to Compliance: How OrbitLabs Was Born"
 date: "2025-02-05"
 author: "Vinay"
 description: "The story of how a $500K mistake led to building ethical, compliance-first software solutions."
-image: "/img/orbitlabs.jpg"
+image: "/img/orbitlabs.png"
 ---
 
 # How I Went From Getting Sued to Building OrbitLabs
