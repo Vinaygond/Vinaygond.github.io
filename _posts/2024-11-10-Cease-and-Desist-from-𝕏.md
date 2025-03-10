@@ -99,7 +99,7 @@ Good day 👋🏻
 ## Featured on:
 
 
-[<img src="https://us1.discourse-cdn.com/flex002/uploads/rupeetalk/original/1X/021e661ae56e93156393b15bc2572dfd73d68c57.png">](https://www.monetard.com),
+[<img src="https://us1.discourse-cdn.com/flex002/uploads/rupeetalk/original/1X/021e661ae56e93156393b15bc2572dfd73d68c57.png">](https://monetard.com/),
 [<img src="https://files.uploads-us4.communiteq-cloud.com/uploads/db6033/optimized/4X/8/b/6/8b610d500dfdf347b7a8fade8ea46ced10fd77dd_2_32x32.png">](https://swapd.co/t/the-500k-tool-that-got-me-a-cease-and-desist-from/1495648) **&** [<img src="https://www.blackhatworld.com/styles/BHWForumImages/Favicon.png">](https://www.blackhatworld.com/seo/im-the-guy-behind-the-500k-tool-that-got-a-cease-and-desist-from-x-twitter.1667435/post-18622938)
 
 ---
