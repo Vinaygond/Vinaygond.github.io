@@ -49,7 +49,9 @@ Within weeks, I sold dozens of licenses. By summer, I had sold hundreds, making 
 
 This tool wasn’t just software—it became a movement.  
 
-Clients were sharing how it transformed their businesses. They were closing deals faster, scaling their revenue, and dominating their niches. Word spread fast, and it felt like, for the first time in my life, I was truly winning.  
+Clients were sharing how it transformed their businesses. They were closing deals faster, scaling their revenue, and dominating their niches. Word spread fast, and it felt like, for the first time in my life, I was truly winning.
+
+![twitter](https://media.licdn.com/dms/image/v2/D5622AQEOM05QnKfRsg/feedshare-shrink_800/B56ZenL8sAG0Ag-/0/1750856620707?e=2147483647&v=beta&t=akODj4A5ssNq3dTAbuOSNoSWwmg4GLlVj52_fUW2i-U)
 
 But then came the storm. The Email.
 
