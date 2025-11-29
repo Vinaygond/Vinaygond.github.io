@@ -12,7 +12,7 @@ navbar-links:
   Projects: 'projects'
   Technical Arsenal: 'technicalskills'
   Publications: 'publications'
-  #My Resume: 'Resume.pdf'
+  My Resume: 'Resume.pdf'
   About Me: 'aboutme'
   # Contact: 'contact'
   # Dropdown menu in Navbar
