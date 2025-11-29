@@ -477,15 +477,6 @@ Limited slots for high-value consulting engagements.
 
 ---
 
-### 📧 For Serious Inquiries
-
-**Email:** [thevclass@outlook.com](mailto:thevclass@outlook.com)  
-**Technical Portfolio:** [xleadscraper.qzz.io/founder](https://xleadscraper.qzz.io/founder)  
-**LinkedIn:** [vinaygo](https://linkedin.com/in/vinaygo)  
-**Twitter:** [@vvgond](https://twitter.com/vvgond)
-
----
-
 *"Most engineers never get sued. I did. That's how I learned to build systems that can't be stopped."*
 
 **Last Updated:** November 2025  
