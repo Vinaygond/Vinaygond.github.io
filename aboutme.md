@@ -450,7 +450,7 @@ Hence the technical post-mortem.
 - You're evaluating infrastructure investments and need technical validation
 - You value experience over credentials
 
-**We're probably not a fit if:**
+**Probably not a fit if:**
 - You need a "full-stack developer" for CRUD apps
 - You're offering equity-only compensation
 - You want free advice disguised as "networking"
