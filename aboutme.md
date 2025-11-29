@@ -4,7 +4,6 @@ title: About me
 subtitle: What do I do
 ---
 
-# Vinay Gond
 ## Architect of Adversarial Infrastructure | $500K Mistake Survivor | Pattern Recognition Defeater
 
 ```bash
@@ -460,7 +459,6 @@ Hence the technical post-mortem.
 
 ---
 
-<div align="center">
 
 # 💀 THE BOTTOM LINE 💀
 
@@ -494,8 +492,6 @@ Limited slots for high-value consulting engagements.
 **Next Update:** When ARR hits 8 figures
 
 ---
-
-</div>
 
 What else do you need?
 
