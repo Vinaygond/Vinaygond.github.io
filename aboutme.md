@@ -21,7 +21,7 @@ Status:  Executing at velocity that makes VCs uncomfortable
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 I architect distributed systems that operate under adversarial constraints.
 
@@ -40,7 +40,7 @@ I've operated on both sides of the detection arms race. I know what platform def
 
 ---
 
-## 💀 The Technical Journey: From $15 to $500K to Legal Action to Compliance
+## The Technical Journey: From $15 to $500K to Legal Action to Compliance
 
 ### Q4 2023: The Constraint
 - Financial runway: $15 in bank account
@@ -147,7 +147,7 @@ Sustainable revenue > spectacular throughput
 
 ---
 
-## 🧠 Core Technical Competencies
+## Core Technical Competencies
 
 ### Distributed Systems Architecture
 - Async I/O orchestration (Python AsyncIO, Node.js)
@@ -179,7 +179,7 @@ Sustainable revenue > spectacular throughput
 
 ---
 
-## 📊 Quantified Impact
+## Quantified Impact
 
 | Metric | V1 (Banned) | V2 (Compliant) | Context |
 |--------|-------------|----------------|---------|
@@ -192,7 +192,7 @@ Sustainable revenue > spectacular throughput
 
 ---
 
-## 🎯 Current Focus & Availability
+## Current Focus & Availability
 
 ### Active Projects
 
@@ -228,15 +228,9 @@ Infrastructure coordination layers for early-stage crypto projects
 **Availability:** Limited slots (currently 2-3 projects/month)  
 **Response Time:** 24-48 hours for serious inquiries
 
-**Contact:**  
-📧 Primary: [thevclass@outlook.com](mailto:thevclass@outlook.com)  
-💼 LinkedIn: [vinaygo](https://linkedin.com/in/vinaygo)  
-🐦 Twitter: [@vvgond](https://twitter.com/vvgond)  
-🌐 Portfolio: [xleadscraper.qzz.io/founder](https://xleadscraper.qzz.io/founder)
-
 ---
 
-## 📝 Technical Publications & Case Studies
+## Technical Publications & Case Studies
 
 ### Featured Work
 
@@ -351,7 +345,7 @@ Realized practical engineering problems teach more than theoretical coursework. 
 
 ---
 
-## 💡 Philosophy & Operating Principles
+## Philosophy & Operating Principles
 
 ### On Building Systems
 
@@ -402,7 +396,7 @@ Hence the technical post-mortem.
 
 ---
 
-## 🔮 Current Trajectory
+## Current Trajectory
 
 ### Short-term (0-6 months)
 - Scale X Lead Scraper V2 to $1M ARR
@@ -424,7 +418,7 @@ Hence the technical post-mortem.
 
 ---
 
-## 🤝 Collaboration & Engagement
+## Collaboration & Engagement
 
 ### Ideal Collaborations
 
@@ -460,7 +454,7 @@ Hence the technical post-mortem.
 ---
 
 
-# 💀 THE BOTTOM LINE 💀
+# THE BOTTOM LINE
 
 ## "I architect systems that platforms can't detect, rate limiters can't throttle, and detection algorithms can't fingerprint."
 
