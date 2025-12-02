@@ -421,4 +421,4 @@ And it's harder than ignoring rate limits.
 xleadscraper@tutamail.com  
 Vinay
 
-**Live:** [xleadscraper.qzz.io](https://xleadscraper.qzz.io/)
+**Live:** [xleadscraper.qzz.io](https://xleadscraper.com/)
