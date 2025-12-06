@@ -4,7 +4,6 @@ title: "I Built a Digital Dead-Drop for Twitter to Bypass Closed DMs"
 date: 2025-12-04 10:00:00 +0000
 categories: [Cybersecurity, Projects, Django]
 tags: [python, cryptography, security, zero-trace]
-image: /assets/images/zerotrace-terminal.png
 description: "How I built ZeroTrace, a 'Mission Impossible' style secure messaging protocol that lets you send self-destructing payloads to anyone on X, even if their DMs are locked."
 ---
 
@@ -23,7 +22,7 @@ So, I built a secure back channel.
 
 ---
 
-## Introducing **ZeroTrace **
+## Introducing ZeroTrace 
 
 ZeroTrace is a **digital dead-drop**. It allows you to generate a secure, encrypted uplink to any Twitter/X user, locked specifically to their identity.
 
@@ -108,3 +107,17 @@ def message_view(request, tweet_uuid):
         return render(request, 'terminal.html', {'payload': payload})
     except:
         return render(request, 'error.html', {'msg': 'Decryption Error.'})
+
+```
+
+
+### Why I Built This
+
+We’re moving toward a walled-garden internet.
+As AI spam increases, high-value individuals will only build higher walls.
+
+ZeroTrace is my attempt to build a ladder.
+
+It forces the sender to put effort into communication — acting as a natural spam filter.
+If someone sends you a ZeroTrace uplink, you know it isn’t a mass-marketing blast.
+It’s a private, encrypted payload meant for your eyes only.
