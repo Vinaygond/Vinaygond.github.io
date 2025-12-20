@@ -130,7 +130,7 @@ The legal rule exists globally (called "tracing" or "source of funds"). The math
 
 ### Exit Protocol Solution
 
-Upload bank statements in any format. AI parses them, categorizes transactions, applies tracing mathematics. 3 minutes. $2.
+Upload bank statements in any format. AI parses them, categorizes transactions, applies tracing mathematics. 3 minutes. $149.
 
 Works regardless of currency, bank format, or country. The algorithm doesn't care if it's analyzing Chase Bank USD or HDFC INR - money flow is money flow.
 
