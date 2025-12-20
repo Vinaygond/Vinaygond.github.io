@@ -79,7 +79,7 @@ Got it working though. And it's deterministic - same input, same output, every s
 
 Live in production as of today. Real users. Real cases. Already got a lawyer in Mumbai using it for a client hearing next week.
 
-Priced it at ₹149 not because I'm being charitable but because I refuse to be part of the problem. The whole point is that this shouldn't cost four thousand dollars.
+Priced it at $149 not because I'm being charitable but because I refuse to be part of the problem. The whole point is that this shouldn't cost four thousand dollars.
 
 Will it scale? Probably not at this price. Do I care? Not really. If 1,000 people use it and 1,000 people get fair settlements instead of getting robbed, that's a win.
 
