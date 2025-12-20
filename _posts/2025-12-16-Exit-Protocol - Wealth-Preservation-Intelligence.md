@@ -45,7 +45,7 @@ Then my Python code runs the legal tracing rule. It's called **Lowest Intermedia
 **Output:** Forensic report showing exactly what you can prove is yours. With charts. With evidence logs. With SHA-256 hashing so opposing counsel can't say you doctored it.
 
 **Time:** 3 minutes  
-**Cost:** ₹149 (That's like two dollars)
+**Cost:** $149
 
 ---
 
