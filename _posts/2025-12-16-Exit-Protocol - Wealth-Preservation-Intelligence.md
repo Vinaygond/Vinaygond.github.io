@@ -140,8 +140,6 @@ Built it in India. Priced it for accessibility. But the problem is identical in 
 
 ---
 
-## MARKETING COPY: Justice at Machine Speed
-
 ### The Problem Nobody Solved (Until Now)
 
 You enter marriage with ₹50 lakhs in your account. Five years later, it's mixed with joint income, mortgage payments, vacations. The balance dipped to ₹3 lakhs. Now it's ₹75 lakhs.
