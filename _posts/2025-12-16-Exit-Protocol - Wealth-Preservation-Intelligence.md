@@ -242,7 +242,7 @@ We're not software that "helps facilitate dialogue."
 
 ### The Price Point Is Deliberate
 
-₹149 isn't a discount. It's a statement.
+$149 isn't a discount. It's a statement.
 
 Forensic accounting costs ₹4,00,000 because it's manual labor intensive. We automated the labor. We're not charging ₹4,00,000 because that would make us part of the problem we're solving.
 
