@@ -150,7 +150,7 @@ You enter marriage with ₹50 lakhs in your account. Five years later, it's mixe
 
 **Traditional answer:** Hire a forensic accountant. Wait 4 weeks. Pay ₹4,00,000. Get an Excel spreadsheet.
 
-**Exit Protocol's answer:** Upload your bank statement. Wait 3 minutes. Pay ₹149. Get court-ready proof.
+**Exit Protocol's answer:** Upload your bank statement. Wait 3 minutes. Pay ~₹14,000. Get court-ready proof.
 
 ---
 
