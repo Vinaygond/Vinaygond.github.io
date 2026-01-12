@@ -616,8 +616,12 @@ footer .theme-by {
 .intro-header {
   margin: 80px 0 20px;
   position: relative;
-  background-color: #111;
-  /* Force dark hero */
+  background-color: #111 !important;
+  /* Force dark hero globally */
+}
+
+.intro-header.no-img {
+  background-color: #111 !important;
 }
 
 .intro-header.big-img {

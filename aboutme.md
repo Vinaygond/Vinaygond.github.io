@@ -1,11 +1,5 @@
 ---
 layout: page
-title: About me
-subtitle: What do I do
----
-
----
-layout: page
 title: About Me
 subtitle: Distributed Systems Architect
 ---
