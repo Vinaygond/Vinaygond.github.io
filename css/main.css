@@ -21,8 +21,9 @@ body {
     % if site.page-img %
   }
 
-  background-image: url({{ site.page-img }});
-  background-attachment: fixed;
+  background-image: none !important;
+  /* Remove any light background images */
+  background-color: #111 !important;
 
     {
     % endif %
@@ -94,6 +95,8 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .main-content {
     padding-top: 130px;
+    background-color: #111;
+    /* Force dark background */
   }
 }
 
@@ -178,6 +181,9 @@ img {
   Helvetica,
   Arial,
   sans-serif;
+  background-color: #111 !important;
+  /* Force dark navbar */
+
 
     {
     % if site.navbar-img %
@@ -610,6 +616,8 @@ footer .theme-by {
 .intro-header {
   margin: 80px 0 20px;
   position: relative;
+  background-color: #111;
+  /* Force dark hero */
 }
 
 .intro-header.big-img {
