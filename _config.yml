@@ -25,15 +25,15 @@ avatar: '/img/homephoto1.jpg'
 
 
 
-navbar-col: '#F5F5F5'
-navbar-text-col: '#404040'
-navbar-children-col: '#F5F5F5'
-page-col: '#FFFFFF'
-link-col: '#008AFF'
-hover-col: '#0085A1'
-footer-col: '#F5F5F5'
-footer-text-col: '#777777'
-footer-link-col: '#404040'
+navbar-col: '#111111'
+navbar-text-col: '#EAEAEA'
+navbar-children-col: '#1a1a1a'
+page-col: '#111111'
+link-col: '#3B82F6'
+hover-col: '#60A5FA'
+footer-col: '#111111'
+footer-text-col: '#888888'
+footer-link-col: '#EAEAEA'
 
 
 author:

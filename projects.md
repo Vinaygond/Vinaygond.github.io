@@ -1,51 +1,70 @@
 ---
 layout: page
 title: Projects
-subtitle: What's been eating away my free time
+subtitle: Engineering & Research
 ---
 
-This is a collection of my personal projects that I work on in my free time. Hope you like them.
+A selection of engineering projects focused on distributed systems, machine learning, and forensic intelligence.
 
 ---
 
-## Diabetes Prediction
+## 🛡️ Exit Protocol
+**De-Fi Forensic Intelligence for High-Conflict Litigation**
 
-- The challenge/goal of the project is to predict weather a given patient has diabetes or not by taking input value.
-- If you want to view the deployed model, click on the following link:
-- Deployed at:
-**Website URL**:[https://prediction-diabetes.herokuapp.com/](https://prediction-diabetes.herokuapp.com/)
+**Mission:** A defense-grade forensic platform designed to neutralize financial abuse. Unlike standard legal software, it weaponizes data by combining **Lowest Intermediate Balance Rule (LIBR)** accounting with **Generative AI** to automate forensic accounting.
 
-- If you are searching for Code, Algorithms used and Accuracy of the model.. you won't find it here. Click the link mentioned below for     the same:
-- _GitHub URL: [https://github.com/Vinaykumargond/Diabetes-Prediction](https://github.com/Vinaykumargond/Diabetes-Prediction)
+**Key Features:**
+- **Sovereign Mode (Enterprise):** A fully containerized "Black Box" Docker appliance ensuring zero data leakage for law firms.
+- **LIBR Tracing Engine:** Automates the complex *See v. See* separate property tracing standard.
+- **AI Audit Express:** Ingests PDF bank statements and produces forensic reports in <24h.
+- **Asset Concealment Hunter:** Dectects micro-transfers to exchanges (Coinbase, Kraken) to flag hidden crypto assets.
 
-- _Tools_: Python, Flask & Heraku!
+**Tech Stack:** `Docker` `Python` `AI (Gemini 2.0 + Mistral)` `AES-256 Encryption`
 
-
-## Spam SMS Detector
-
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
-
-- Model that will accurately classify which texts are spam?
-- This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
-- _Tools_: Python, Flask, Heraku.
-
-**Website URL**:[https://spam-sms-detectors.herokuapp.com/](https://spam-sms-detectors.herokuapp.com/)
-- _GitHub URL_: [https://github.com/Vinaykumargond/Spam-SMS-Classifier-Deployment](https://github.com/Vinaykumargond/Spam-SMS-Classifier-Deployment)
+[**View Project**](https://exitprotocols.com)
 
 <br/>
 
-## Restaurant-Reviews-Sentiment-Analysis
+---
 
-This repository consists of files required to deploy a Machine Learning Web App created with Flask on Heroku platform.
+## 📈 Diabetes Prediction Engine
 
-- If you want to view the deployed model, click on the following link:
-Deployed at:
+**Medical Diagnostic Model**
 
-**Website URL**[https://restaurants-review-sentiment.herokuapp.com/](https://restaurants-review-sentiment.herokuapp.com/)
-- If you are searching for Code, Algorithms used and Accuracy of the model.. you won't find it here. Click the link mentioned below for the same:
-- _GitHub URL_: [Restaurant-Review's-Sentiment-Analysis - Deployment](https://github.com/Vinaykumargond/Restaurant-Reviews-Sentiment-Analysis-Deployment)
+A machine learning solution to predict diabetic risk factors based on patient clinical history.
+
+- **Objective:** Early detection classification using support vector machines.
+- **Stack:** Python, Flask, Heroku.
+
+[**View Source**](https://github.com/Vinaykumargond/Diabetes-Prediction) | [**Live Demo**](https://prediction-diabetes.herokuapp.com/)
 
 <br/>
 
-## Diabetes Prediction
+---
+
+## 📩 Semantic Spam Filter
+
+**NLP Classification System**
+
+Natural Language Processing filtering system trained on the SMS Spam Collection dataset (5,574 messages).
+
+- **Objective:** Real-time classification of "ham" vs "spam" messages with high precision.
+- **Stack:** Python, Flask, Scikit-learn.
+
+[**View Source**](https://github.com/Vinaykumargond/Spam-SMS-Classifier-Deployment) | [**Live Demo**](https://spam-sms-detectors.herokuapp.com/)
+
+<br/>
+
+---
+
+## 🍽️ Sentiment Analysis Engine
+
+**Consumer Feedback Intelligence**
+
+Sentiment classification system for restaurant reviews, capable of determining positive/negative polarity from unstructured text.
+
+- **Stack:** Python, NLTK, Flask.
+
+[**View Source**](https://github.com/Vinaykumargond/Restaurant-Reviews-Sentiment-Analysis-Deployment) | [**Live Demo**](https://restaurants-review-sentiment.herokuapp.com/)
+
 
