@@ -25,46 +25,6 @@ A selection of engineering projects focused on distributed systems, machine lear
 
 <br/>
 
----
 
-## 📈 Diabetes Prediction Engine
-
-**Medical Diagnostic Model**
-
-A machine learning solution to predict diabetic risk factors based on patient clinical history.
-
-- **Objective:** Early detection classification using support vector machines.
-- **Stack:** Python, Flask, Heroku.
-
-[**View Source**](https://github.com/Vinaykumargond/Diabetes-Prediction) | [**Live Demo**](https://prediction-diabetes.herokuapp.com/)
-
-<br/>
-
----
-
-## 📩 Semantic Spam Filter
-
-**NLP Classification System**
-
-Natural Language Processing filtering system trained on the SMS Spam Collection dataset (5,574 messages).
-
-- **Objective:** Real-time classification of "ham" vs "spam" messages with high precision.
-- **Stack:** Python, Flask, Scikit-learn.
-
-[**View Source**](https://github.com/Vinaykumargond/Spam-SMS-Classifier-Deployment) | [**Live Demo**](https://spam-sms-detectors.herokuapp.com/)
-
-<br/>
-
----
-
-## 🍽️ Sentiment Analysis Engine
-
-**Consumer Feedback Intelligence**
-
-Sentiment classification system for restaurant reviews, capable of determining positive/negative polarity from unstructured text.
-
-- **Stack:** Python, NLTK, Flask.
-
-[**View Source**](https://github.com/Vinaykumargond/Restaurant-Reviews-Sentiment-Analysis-Deployment) | [**Live Demo**](https://restaurants-review-sentiment.herokuapp.com/)
 
 

@@ -25,9 +25,7 @@ subtitle: Production-Tested Stack | Built Systems Processing 2M+ Requests/Day
 - **Rust** - Systems programming for performance-critical components
 - **C++** - Low-level optimization when Python isn't fast enough
 
-### Markup & Styling
-- **HTML5/CSS3/Sass** - Modern responsive interfaces
-- **Markdown** - Technical documentation, GitHub README engineering
+
 
 ---
 
@@ -65,15 +63,13 @@ subtitle: Production-Tested Stack | Built Systems Processing 2M+ Requests/Day
 
 ---
 
-## Data Science & Machine Learning
+## AI & Forensic Intelligence
 
 ### Data Analysis
 - **Pandas** - Data manipulation, time-series analysis
 - **NumPy** - Numerical computing, array operations
 
-### Visualization
-- **Matplotlib** - Publication-quality plots, custom visualizations
-- **Seaborn** - Statistical data visualization
+
 
 ### Machine Learning
 - **Scikit-learn** - Classification, regression, clustering
