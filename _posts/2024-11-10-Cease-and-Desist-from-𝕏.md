@@ -10,6 +10,8 @@ tags: [business, legal, twitter]
 
 ## The $500K Tool That Got Me a Cease-and-Desist from 𝕏
 
+> **[View Live Project: XLeadScraper.com](https://xleadscraper.com)**
+
 I wasn’t trying to break the rules—I was just trying to survive.  
 
 A few months ago, I had $15 in my bank account, a toddler to take care of, and the gnawing feeling that I was running out of options. I live in a place where opportunities don’t come easy. Payments are hard to collect, tools and platforms are geo-restricted, and even when you have talent, the global market feels just out of reach.

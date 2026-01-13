@@ -9,6 +9,8 @@ tags: [forensics, finance, python, ai]
 
 ## MEMO: EXIT PROTOCOL
 
+> **[View Live Project: ExitProtocols.com](https://exitprotocols.com)**
+
 **TO:** Anyone who gives a shit about broken systems  
 **FROM:** Someone who actually fixed one  
 **RE:** Why divorce financial discovery is a scam and what I did about it
