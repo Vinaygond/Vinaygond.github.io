@@ -1,6 +1,10 @@
-# EXIT PROTOCOL
-## Complete Documentation & Memo
-
+---
+layout: post
+title: "Exit Protocol: Wealth Preservation Intelligence"
+subtitle: "De-Fi Forensic Intelligence for High-Conflict Litigation"
+date: 2025-12-16
+image: /img/blackimg.jpg
+tags: [forensics, finance, python, ai]
 ---
 
 ## MEMO: EXIT PROTOCOL

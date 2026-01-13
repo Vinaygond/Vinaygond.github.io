@@ -1,4 +1,11 @@
-# How I Engineered a System That Made Twitter’s Rate Limits Irrelevant
+---
+layout: post
+title: "How I Engineered a System That Made Twitter’s Rate Limits Irrelevant"
+subtitle: "Architecting a 2M request/day distributed system"
+date: 2025-11-16
+image: /img/orbitlabs.png
+tags: [distributed-systems, python, scraping]
+---
 
 **EVERYONE ASKS ME:**  
 "How did you scrape 2M profiles per day without getting banned immediately?"  
