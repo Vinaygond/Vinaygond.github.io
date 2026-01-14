@@ -10,9 +10,9 @@ description: I bet everyday!
 
 navbar-links:
   Projects: 'projects'
-  Technical Arsenal: 'technicalskills'
+  Skills: 'technicalskills'
   Publications: 'publications'
-  My Resume: 'Resume.pdf'
+  Resume: 'resume'
   About Me: 'aboutme'
   # Contact: 'contact'
   # Dropdown menu in Navbar
