@@ -2,21 +2,17 @@
 layout: page
 title: Vinay Kumar Gond
 subtitle: Distributed Systems Architect | Ex-Founder ($500k ARR)
-bigimg: "/img/homephoto1.jpg"
 ---
-
-<div class="resume-container" style="font-family: 'Inter', sans-serif; color: #333;">
 
 <div style="text-align: center; margin-bottom: 40px;">
   <span style="background: #e6fffa; color: #047857; padding: 6px 12px; border-radius: 9999px; font-weight: 600; font-size: 0.9em; letter-spacing: 0.05em; border: 1px solid #047857;">🟢 OPEN FOR LEAD / ARCHITECT ROLES</span>
-  <div style="margin-top: 20px;">
-    <a href="/Resume.pdf" class="btn btn-primary" style="background: #111; border: none; padding: 12px 25px; font-weight: 600;">Download PDF Resume</a>
-  </div>
+  <br><br>
+  <a href="/Resume.pdf" class="btn btn-primary" style="background: #111; border: none; padding: 12px 25px; font-weight: 600;">Download PDF Resume</a>
 </div>
 
-<hr />
+---
 
-## <i class="fa fa-terminal"></i> Technical Arsenal
+## Technical Arsenal
 
 **Core:** Distributed Systems, Event-Driven Architecture, High-Throughput Automation  
 **Languages:** Python (Django, Flask, Scrapy), JavaScript (Node.js)  
@@ -25,7 +21,7 @@ bigimg: "/img/homephoto1.jpg"
 
 ---
 
-## <i class="fa fa-briefcase"></i> Experience
+## Experience
 
 ### **Founder & Lead Architect** | XLeadScraper (Hydra)
 *2024 - Present*
@@ -43,7 +39,7 @@ bigimg: "/img/homephoto1.jpg"
 
 ---
 
-## <i class="fa fa-code"></i> Projects
+## Projects
 
 ### **Exit Protocol: Wealth Preservation Intelligence**
 *Forensic FinTech*
@@ -59,10 +55,8 @@ bigimg: "/img/homephoto1.jpg"
 
 ---
 
-## <i class="fa fa-graduation-cap"></i> Education
+## Education
 
 **B.E. Computer Science**
 *Visvesvaraya Technological University*
 - Focus: Network Security & Distributed Systems
-
-</div>
