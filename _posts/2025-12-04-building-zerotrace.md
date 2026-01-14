@@ -7,6 +7,8 @@ tags: [python, cryptography, security, zero-trace]
 description: "How I built ZeroTrace, a 'Mission Impossible' style secure messaging protocol that lets you send self-destructing payloads to anyone on X, even if their DMs are locked."
 ---
 
+> **Project Status: Internal Prototype / Security Research**
+
 The most valuable people on the internet—founders, VCs, and security researchers—have a problem.
 
 They are drowning in noise. Their DMs are spammed with “Hi,” “Can I pick your brain?”, and automated sales pitches. To survive, they close their DMs.
