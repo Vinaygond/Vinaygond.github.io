@@ -57,6 +57,6 @@ subtitle: Distributed Systems Architect | Ex-Founder ($500k ARR)
 
 ## Education
 
-**B.E. Computer Science**
-*Visvesvaraya Technological University*
-- Focus: Network Security & Distributed Systems
+**National Institute of Technology (NIT) Mizoram**
+*Bachelor of Technology in Electronics & Communication (2017–2019)*
+- Left prior to degree conferral to pursue practical engineering challenges in the high-growth SaaS sector.
