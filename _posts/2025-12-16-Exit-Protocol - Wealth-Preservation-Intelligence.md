@@ -2,7 +2,7 @@
 layout: post
 title: "Exit Protocol: The $750,000 Heist and the Code that Fights Back"
 subtitle: "De-Fi Forensic Intelligence for High-Conflict Litigation"
-date: 2026-01-24
+date: 2025-12-28
 image: /img/blackimg.jpg
 tags: [forensics, finance, python, ai, docker]
 ---
