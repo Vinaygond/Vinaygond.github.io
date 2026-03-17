@@ -21,7 +21,7 @@ A selection of engineering projects focused on distributed systems, machine lear
 
 **Tech Stack:** `Docker` `Python` `AI (Gemini 2.0 + Mistral)` `AES-256 Encryption`
 
-[**View Project**](https://exitprotocols.com) | [**Read Case Study**](/2025-12-16-Exit-Protocol-Wealth-Preservation-Intelligence/)
+[**View Project**](https://exitprotocols.com) | [**Read Case Study**](https://exitprotocols.com/case-studies/kim-v-pak/)
 
 <br/>
 
