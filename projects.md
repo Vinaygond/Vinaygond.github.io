@@ -37,7 +37,7 @@ A selection of engineering projects focused on distributed systems, machine lear
 
 **Tech Stack:** `Python (Scrapy)` `Redis` `PostgreSQL` `Celery`
 
-[**View Project**](https://xleadscraper.com) | [**Read Case Study**](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+[**View Project**](https://xleadscraper.com) | [**Read Case Study**](https://xleadscraper.com/)
 
 <br/>
 
