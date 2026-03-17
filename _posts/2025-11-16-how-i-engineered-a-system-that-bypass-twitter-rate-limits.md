@@ -430,4 +430,4 @@ And it's harder than ignoring rate limits.
 xleadscraper@tutamail.com  
 Vinay
 
-**Live:** [xleadscraper.qzz.io](https://xleadscraper.com/)
+**Live:** [xleadscraper.com](https://xleadscraper.com/)
