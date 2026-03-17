@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exit Protocol: Forensic Litigation Inteligence"
+title: "Exit Protocol: Forensic Litigation Intelligence"
 subtitle: "Automated forensic accounting for high-conflict litigation. Deterministic LIBR tracing, court-ready reporting, and Al-assisted case analysis at a fraction of traditional cost."
 date: 2025-12-28
 image: /img/blackimg.jpg
