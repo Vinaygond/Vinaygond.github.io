@@ -38,5 +38,5 @@ Today, I apply these lessons to build "unbreakable" distributed infrastructure a
 
 I am currently available for select consulting engagements focused on infrastructure design, anti-detection strategy, and technical due diligence.
 
-[**Email**](mailto:vinay@xleadscraper.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://linkedin.com/in/vinaygo)
+[**Email**](mailto:vinay@exitprotocols.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://linkedin.com/in/vinaygo)
 
