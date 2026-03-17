@@ -40,3 +40,5 @@ Developed a proprietary hybrid AI bridge that intercepts and rewrites hostile, h
 ## The Engineering Philosophy
 Exit Protocol was built with the mindset of an adversarial engineer turned defender. While the broader legal tech market relies on unpredictable, probabilistic Large Language Models (the "black box" problem), Exit Protocol’s core operates strictly on deterministic mathematical rules. It is unbreakable infrastructure designed specifically for environments where precision, compliance, and absolute data integrity are mandatory.
 *Sovereign Mode available for Enterprise Law Firms.*
+
+*Questions?* vinay@exitprotocols.com
