@@ -7,6 +7,7 @@ subtitle: Vulnerability Analysis & Market Mechanics
 ## Case Study: The Algorithmic Transformation of Forensic Accounting
 **Date:** March 2026 
 **Focus:** Distributed Systems, Spatial-Grid OCR, Algorithmic Asset Tracing, Cryptographic Chain-of-Custody
+**Paper:** https://vinaygond.github.io/Exit%20Protocol_%20Forensic%20Accounting%20Analysis.pdf
 
 ---
 
