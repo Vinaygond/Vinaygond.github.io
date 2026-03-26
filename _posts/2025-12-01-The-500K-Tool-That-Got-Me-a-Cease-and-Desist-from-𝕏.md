@@ -56,8 +56,6 @@ This tool wasn’t just software—it became a movement.
 
 Clients were sharing how it transformed their businesses. They were closing deals faster, scaling their revenue, and dominating their niches. Word spread fast, and it felt like, for the first time in my life, I was truly winning.
 
-![twitter](https://media.licdn.com/dms/image/v2/D5622AQEOM05QnKfRsg/feedshare-shrink_800/B56ZenL8sAG0Ag-/0/1750856620707?e=2147483647&v=beta&t=akODj4A5ssNq3dTAbuOSNoSWwmg4GLlVj52_fUW2i-U)
-
 But then came the storm. The Email.
 
 ![email](https://media.licdn.com/dms/image/v2/D5622AQHMhDl3GIHwDw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732183388207?e=2147483647&v=beta&t=-Vjq8b_X5Bi59Qto1NCwaP3v4x5swqsvRSEJrynUxEg) 
