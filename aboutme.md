@@ -4,39 +4,75 @@ title: About Me
 subtitle: Distributed Systems Architect
 ---
 
-I’m **Vinay**, a Distributed Systems Architect specializing in infrastructure that operates under adversarial constraints.
+I’m **Vinay Kumar Gond**, a distributed systems architect and founder building software for high-stakes environments where scale, correctness, and trust all matter at once.
 
-My work focuses on building high-throughput data systems that are resilient, scalable, and—crucially—sustainable. I have a deep background in reverse-engineering detection mechanisms and architecting systems that can withstand rigorous platform defenses.
+My work sits at the intersection of backend infrastructure, forensic financial intelligence, compliance-aware automation, and AI-assisted legal workflows. I am most interested in systems that have to survive pressure: messy data, adversarial behavior, platform constraints, legal scrutiny, and real users depending on the outcome.
 
 ### The Journey
 
-In late 2023, seeing a market inefficiency, I engineered a distributed request orchestration system capable of processing **2 million requests per day**. It leveraged a mesh of over 1,200 residential proxies and complex token sharding to bypass standard rate limits.
+My first major venture was **Hydra / XLeadScraper**, a high-throughput data infrastructure product that scaled from zero to roughly **$500k ARR in six months**.
 
-This system generated **$500,000 ARR in just six months**.
+Technically, it was a serious system: distributed workers, request orchestration, queueing, rate-limit management, network isolation, token separation, and self-healing pipelines operating at millions of requests per day.
 
-However, speed without sustainability has consequences. My infrastructure was eventually detected, leading to a cease-and-desist from Twitter (X) and a complete system shutdown. This was an expensive but invaluable lesson in the reality of **Layer 4 vs. Layer 7 detection** and the importance of compliance.
+Commercially, it proved I could build and sell.
+
+Architecturally, it taught me something more important: speed alone is not durability.
+
+A system can be fast, clever, and profitable while still being fragile if it is not designed around compliance, user safety, platform constraints, and long-term trust. That lesson changed how I build.
 
 ### The Pivot
 
-I didn't stop. I rebuilt.
+After Hydra, I rebuilt my engineering philosophy around one principle:
 
-My second iteration, **X Lead Scraper V2**, was designed with a completely different philosophy: **Compliance and Intent**. Instead of brute-force throughput, I focused on behavioral mimicry and network isolation.
-- **Throughput**: 10k highly-targeted requests/day.
-- **Result**: Zero detection events, fully compliant operation, and sustainable revenue for 8+ months.
+**Constraints are part of the architecture.**
 
-Today, I apply these lessons to build "unbreakable" distributed infrastructure and consult for Venture Capital firms and crypto projects on system resilience.
+Today, I focus on systems that are not just powerful, but defensible. The goal is not to push infrastructure until it breaks. The goal is to design infrastructure that can keep working under legal, operational, and adversarial pressure.
+
+That philosophy now drives my work on **Exit Protocol**, a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
+
+Exit Protocol turns messy financial records into structured, reviewable, court-ready evidence. It combines AI-assisted document processing with deterministic financial tracing, cryptographic evidence sealing, and secure deployment models for sensitive legal data.
+
+The core belief behind it is simple:
+
+**Use AI where it accelerates judgment. Use deterministic systems where legal proof requires precision.**
+
+### What I Build
+
+I build backend and infrastructure systems that handle:
+
+- High-throughput data pipelines.
+- Async processing and distributed workers.
+- OCR-assisted document ingestion.
+- Transaction classification and financial tracing.
+- Secure evidence workflows.
+- Cryptographic audit trails.
+- Compliance-aware automation.
+- AI-assisted review and reporting tools.
 
 ### Core Expertise
 
-*   **Distributed Systems**: Async I/O orchestration (Python/Node.js), Kubernetes auto-scaling, and distributed rate limiting (Redis).
-*   **Adversarial Engineering**: Anti-fingerprinting (TLS/JA3), behavioral anomaly evasion, and detection system analysis.
-*   **Strategy**: Balancing technical velocity with long-term legal and platform compliance.
+- **Distributed Systems:** Async I/O orchestration, worker queues, event-driven architecture, distributed rate limiting, and fault-tolerant pipelines.
+- **Backend Engineering:** Python, Django, FastAPI, Node.js, TypeScript, PostgreSQL, Redis, Celery, Docker, and Kubernetes.
+- **Forensic Intelligence:** Financial document ingestion, transaction normalization, LIBR tracing, asset concealment signals, and court-ready reporting.
+- **Security & Integrity:** AES-256 encryption, SHA-256 evidence sealing, audit logs, data isolation, and secure deployment models.
+- **Product Strategy:** Building systems that balance speed, revenue, compliance, reliability, and long-term trust.
+
+### How I Think
+
+I am not attached to one language, framework, or identity.
+
+I learn what the problem requires, use what is proven to work, and ship systems that create real value. Sometimes that means boring infrastructure. Sometimes it means custom architecture. The point is not to look sophisticated. The point is to solve the problem cleanly.
+
+My background has taught me to respect constraints instead of pretending they are optional. Legal constraints, platform constraints, data constraints, security constraints, and human constraints all shape the system.
+
+Good engineering does not ignore reality.
+
+It designs for it.
 
 ---
 
 ### Connect
 
-I am currently available for select consulting engagements focused on infrastructure design, anti-detection strategy, and technical due diligence.
+I am currently open to serious conversations around senior backend/platform roles, legal-tech infrastructure, forensic intelligence systems, and technical consulting for resilient automation.
 
 [**Email**](mailto:vinay@exitprotocols.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://linkedin.com/in/vinaygo)
-
