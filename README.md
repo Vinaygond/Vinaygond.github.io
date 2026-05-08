@@ -1,41 +1,79 @@
 # Vinay Kumar Gond
-### Distributed Systems Architect | Ex-Founder ($500k ARR)
 
-I build high-throughput infrastructure that operates under adversarial constraints. Specializing in resilient distributed systems, anti-bot evasion, and forensic intelligence.
+### Distributed Systems Architect | Founder, Exit Protocol
 
----
+I build systems for high-stakes environments where scale, correctness, and trust all matter: forensic financial intelligence, distributed automation, secure evidence workflows, and compliance-aware infrastructure.
 
-## 🚀 Impact at Scale
-- **$500k ARR** generated in 6 months by my first venture, **Hydra**.
-- **2M+ requests/day** processed via distributed request orchestration mesh.
-- **1,200+ proxies** managed in a self-healing, high-velocity data pipeline.
-- **4 weeks → 3 minutes**: Automated forensic financial tracing at **Exit Protocol**.
+Most of my experience comes from shipping under pressure: taking products from zero to revenue, operating high-throughput systems, learning from hard platform constraints, and rebuilding architecture so it can last.
 
 ---
 
-## 🛠️ Technical Arsenal
-- **Languages:** Python (AsyncIO, Scrapy, Django), Node.js, Rust, SQL, Bash.
-- **Infrastructure:** Docker, Kubernetes, AWS, Redis, Celery, PostgreSQL.
-- **Specialized:** Adversarial Engineering (JA3/TLS fingerprinting, behavioral mimicry), Forensic Intelligence, Reverse Engineering.
+## Current Focus
+
+I am building [Exit Protocol](https://exitprotocols.com), a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
+
+The goal is simple: turn messy bank statements, transaction histories, and legal evidence into court-ready analysis that is faster, cheaper, and more reliable than manual spreadsheet work.
+
+Core systems I work on:
+
+- Deterministic LIBR tracing for commingled asset analysis.
+- PDF and bank statement ingestion pipelines.
+- OCR-assisted extraction and transaction classification.
+- Cryptographic evidence sealing and chain-of-custody records.
+- Secure deployment models for sensitive legal and financial data.
+- AI-assisted workflows for review, preparation, and communication.
 
 ---
 
-## 🏗️ Featured Projects
+## Previous Venture
 
-### [Exit Protocol](https://exitprotocols.com)
-**Wealth Preservation Intelligence**
-A DeFi forensic platform for high-conflict litigation. Combines AI (Gemini/Mistral) with LIBR accounting to automate financial audits.
+My first major venture, Hydra / XLeadScraper, reached about **$500k ARR in 6 months**.
 
-### [Hydra (XLeadScraper)](https://xleadscraper.com)
-**Adversarial Data Infrastructure**
-A "hydra-headed" distributed pipeline engineered to bypass enterprise-grade anti-bot systems at scale.
+The system processed millions of requests per day and taught me a hard architectural lesson: speed alone is not durability. Durable systems must be designed around platform constraints, compliance, user safety, and long-term trust from day one.
+
+That lesson now shapes how I build.
 
 ---
 
-## 🧠 Philosophy
-> "Technology is a tool, not an identity. I learn what's needed to solve the problem, use what's proven to work at scale, and ship what generates revenue."
+## Proof Points
+
+- Built a venture from zero to roughly **$500k ARR** in 6 months.
+- Designed distributed infrastructure capable of **2M+ requests per day**.
+- Operated self-healing worker pools, queues, rate limiters, network routing, and token isolation at production scale.
+- Reduced forensic financial tracing workflows from weeks to minutes through deterministic automation.
+- Shipped with Python, Django, AsyncIO, Celery, Redis, PostgreSQL, Docker, Kubernetes, Node.js, TypeScript, SQL, and Bash.
 
 ---
 
-## 📫 Connect
-[Website](https://vinaygond.github.io) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://linkedin.com/in/vinaygo) | [Email](mailto:vinay@xleadscraper.com)
+## Technical Areas
+
+- Distributed systems and event-driven architecture.
+- High-throughput data pipelines and async orchestration.
+- Legal-tech and forensic financial intelligence.
+- OCR, document parsing, transaction classification, and evidence workflows.
+- Security, data integrity, cryptographic audit trails, and secure deployments.
+- Compliance-aware automation and platform-risk engineering.
+
+---
+
+## How I Build
+
+- Use AI where it accelerates judgment, not where determinism is required.
+- Treat constraints as part of the architecture, not as obstacles to route around.
+- Prefer boring, proven infrastructure until the problem earns complexity.
+- Build for revenue, reliability, and trust at the same time.
+- Learn whatever the problem demands, then ship.
+
+---
+
+## Featured Work
+
+- [Exit Protocol](https://exitprotocols.com) - forensic litigation intelligence for high-conflict financial cases.
+- [Personal site and case studies](https://vinaygond.github.io) - writing on distributed systems, legal-tech, and product lessons.
+- [XLeadScraper](https://xleadscraper.com) - high-throughput data infrastructure and automation lessons.
+
+---
+
+## Connect
+
+[Website](https://vinaygond.github.io) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://linkedin.com/in/vinaygo) | [Email](mailto:vinay@exitprotocols.com)
