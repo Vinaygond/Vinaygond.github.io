@@ -82,4 +82,4 @@ It designs for it.
 
 I am currently open to serious conversations around senior backend/platform roles, legal-tech infrastructure, forensic intelligence systems, and technical consulting for resilient automation.
 
-[**Email**](mailto:vinay@exitprotocols.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://www.linkedin.com/in/vinay-gond/) | [**GitHub**](https://github.com/Vinaygond)
+[**Email**](mailto:vinay@exitprotocols.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://www.linkedin.com/in/vinaygo/) | [**GitHub**](https://github.com/Vinaygond)

@@ -76,4 +76,4 @@ That lesson now shapes how I build.
 
 ## Connect
 
-[Website](https://vinaygond.github.io) | [Exit Protocol](https://exitprotocols.com) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://www.linkedin.com/in/vinay-gond/) | [GitHub](https://github.com/Vinaygond) | [Email](mailto:vinay@exitprotocols.com)
+[Website](https://vinaygond.github.io) | [Exit Protocol](https://exitprotocols.com) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://www.linkedin.com/in/vinaygo/) | [GitHub](https://github.com/Vinaygond) | [Email](mailto:vinay@exitprotocols.com)
