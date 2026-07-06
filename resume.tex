@@ -5,8 +5,9 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
 
-\usepackage[scale=0.94, top=0.6cm, bottom=0.6cm, left=0.9cm, right=0.9cm]{geometry}
+\usepackage[scale=0.94, top=0.55cm, bottom=0.55cm, left=0.85cm, right=0.85cm]{geometry}
 
 \name{Vinay Kumar}{Gond}
 \title{Distributed Systems Architect \& Founder, Exit Protocol}
@@ -21,61 +22,67 @@
 \begin{document}
 
 \makecvtitle
-\vspace*{-3.2em}
+\vspace*{-3.4em}
 
 %----------------------------------------------------------------------------------------
 \section{Professional Summary}
 \vspace*{-2pt}
 \cvitem{}{
-    \small Founder and backend architect building software for \textbf{high-stakes environments} where scale, correctness, and trust must hold together. Currently building \textbf{Exit Protocol}, a forensic litigation intelligence platform for asset tracing and financial discovery. Previously scaled \textbf{Hydra / XLeadScraper} from zero to roughly \textbf{\$500k ARR in six months}, operating distributed pipelines at \textbf{2M+ requests/day}. Core philosophy: use AI where it accelerates judgment; use \textbf{deterministic systems} where proof requires precision; treat \textbf{compliance and platform constraints} as architecture inputs, not afterthoughts.
+    \small Distributed systems architect and founder shipping under pressure: zero-to-revenue products, \textbf{2M+ requests/day} in production, and platform constraints turned into design inputs. Building \textbf{Exit Protocol}, a forensic litigation intelligence platform for asset tracing and financial discovery. Previously scaled \textbf{Hydra / XLeadScraper} to roughly \textbf{\$500k ARR in six months}. Philosophy: \textbf{AI accelerates messy document work; deterministic systems handle proof}; compliance, security, and auditability are architecture requirements, not polish.
 }
 
 %----------------------------------------------------------------------------------------
 \section{Technical Skills}
 \vspace*{-2pt}
-\cvitem{\textbf{Core}}{Distributed systems, event-driven architecture, async orchestration, worker queues, rate control, fault isolation, forensic financial intelligence, evidence integrity workflows.}
-\cvitem{\textbf{Languages}}{Python (Django, FastAPI, AsyncIO), TypeScript, Node.js, SQL, Bash.}
-\cvitem{\textbf{Data \& Infra}}{PostgreSQL, Redis, Celery, Docker, Kubernetes, NGINX, AWS, GCP, DigitalOcean, OpenTelemetry.}
-\cvitem{\textbf{Domains}}{LIBR tracing, OCR/document ingestion, transaction normalization, SHA-256 snapshot integrity, AES-256 data protection, AI-assisted review pipelines.}
+\cvitem{\textbf{Systems}}{Distributed architecture, async orchestration, worker queues, rate control, fault isolation, traffic shaping, observability, forensic pipelines, evidence integrity.}
+\cvitem{\textbf{Stack}}{Python (Django, FastAPI, AsyncIO), TypeScript, Node.js, SQL, Bash; PostgreSQL, Redis, Celery, Docker, Kubernetes, NGINX, AWS, GCP, OpenTelemetry.}
+\cvitem{\textbf{Focus}}{LIBR tracing, OCR/document ingestion, transaction normalization, SHA-256 snapshot integrity, AES-256 data protection, AI-assisted review, secure deployments.}
 
 %----------------------------------------------------------------------------------------
 \section{Engineering Experience}
 
 \cventry{2025--Present}{Founder \& Systems Architect}{Exit Protocol}{Remote}{}{
-    \textit{Forensic litigation intelligence for high-conflict divorce, asset tracing, and financial discovery.}
-    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=2pt]
-        \item \textbf{Deterministic LIBR Engine:} Built a state-machine tracing engine for \textbf{Lowest Intermediate Balance Rule (LIBR)} analysis, producing \textbf{attorney-reviewable workpapers} with visible strategy, ledger agreement, and source provenance.
-        \item \textbf{Document Ingestion Pipeline:} Designed OCR-assisted workflows for PDF bank statements, transaction exports, and discovery packets; normalized dates, amounts, balances, and descriptions for reviewable financial timelines.
-        \item \textbf{Evidence Integrity:} Implemented \textbf{SHA-256} snapshot sealing, file-hash verification, and processing history so counsel and retained experts can inspect what data was used and whether outputs changed.
-        \item \textbf{AI with Hard Boundaries:} Deployed hybrid LLM/OCR flows (Mistral, Gemini) for classification and review support while keeping legal math deterministic and explainable.
-        \item \textbf{Production Platform:} Shipped on \textbf{Django}, \textbf{PostgreSQL}, \textbf{Celery}, \textbf{Redis}, and \textbf{Docker}; added \textbf{OpenTelemetry} tracing and containerized deployment options for sensitive legal data.
+    \textit{Forensic litigation intelligence for high-conflict divorce, asset tracing, and financial discovery. \href{https://exitprotocols.com}{exitprotocols.com}}
+    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=1pt, itemsep=0pt]
+        \item \textbf{LIBR Tracing Engine:} Built deterministic \textbf{Lowest Intermediate Balance Rule} state-machine logic producing \textbf{attorney-reviewable workpapers} with visible strategy, ledger agreement, and source provenance.
+        \item \textbf{Evidence Pipeline:} Designed OCR-assisted ingestion for PDF statements and discovery packets; normalized transactions into reviewable timelines with duplicate detection and reconciliation checkpoints.
+        \item \textbf{Integrity Layer:} Implemented \textbf{SHA-256} snapshot sealing, exact file-hash verification, and processing history for tamper-evident, inspectable outputs.
+        \item \textbf{Production Stack:} Shipped on \textbf{Django}, \textbf{PostgreSQL}, \textbf{Celery}, \textbf{Redis}, \textbf{Docker}; hybrid LLM/OCR flows (Mistral, Gemini) with hard boundaries around deterministic legal math.
     \end{itemize}
 }
 
-\vspace*{4pt}
+\vspace*{2pt}
 
 \cventry{2024--2025}{Founder \& Lead Architect}{Hydra / XLeadScraper}{Remote}{}{
-    \textit{High-throughput data infrastructure product; roughly \textbf{\$500k ARR in six months}.}
-    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=2pt]
-        \item \textbf{Distributed Scale:} Architected queue-driven worker pools, request orchestration, token separation, and retry/backpressure controls to sustain \textbf{2M+ requests/day} at peak.
-        \item \textbf{Operational Isolation:} Built network and workload isolation patterns across distributed workers, Redis queues, PostgreSQL, and automation services to limit blast radius under production pressure.
-        \item \textbf{Lead Qualification:} Developed enrichment and scoring pipelines that shifted the product from raw volume to structured, higher-intent lead output.
-        \item \textbf{Compliance Pivot:} After platform-policy constraints in late 2024, rebuilt the system around sustainable operation, qualified output, and compliance-aware architecture --- the lesson that now shapes Exit Protocol.
+    \textit{High-throughput data infrastructure; roughly \textbf{\$500k ARR in six months}. \href{https://xleadscraper.com}{xleadscraper.com}}
+    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=1pt, itemsep=0pt]
+        \item \textbf{Scale Engineering:} Architected queue-driven worker pools, proxy-aware request routing, token separation, and backpressure controls sustaining \textbf{2M+ requests/day} with 99.9\% uptime under active countermeasures.
+        \item \textbf{Platform Analysis:} Reverse-engineered rate-limiting and co-temporal detection patterns beyond simple volumetric caps, informing isolation and traffic-shaping design.
+        \item \textbf{Intent Pipeline:} Built NLP scoring workflows to grade lead quality, shifting revenue from raw volume to higher-intent structured output.
+        \item \textbf{Compliance Pivot:} Rebuilt for network isolation, sustainable operation, and policy-aware architecture after late-2024 platform constraints.
     \end{itemize}
 }
 
-\vspace*{4pt}
+\vspace*{2pt}
 
 \cventry{Ongoing}{Infrastructure \& Systems Consulting}{Independent}{Remote}{}{
-    Backend architecture, high-throughput data processing, technical due diligence, and resilient automation for teams operating under business, legal, or adversarial pressure.
+    Backend architecture, high-throughput data processing, technical due diligence, and resilient automation for teams under business, legal, or adversarial pressure.
 }
 
 %----------------------------------------------------------------------------------------
 \section{Technical Publications}
 \vspace*{-2pt}
 \cvitem{Nov 2025}{\textbf{``The \$500K Mistake: A Technical Post-Mortem on Layer 4 Network Detection''} \\
-    \footnotesize{\href{https://vinaygond.github.io/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-%F0%9D%95%8F/}{vinaygond.github.io}} \,|\, \href{https://dev.to/vinaygond/the-500k-tool-that-got-me-a-cease-and-desist-from-40bk}{dev.to}}
+    \footnotesize{\href{https://vinaygond.github.io/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-%F0%9D%95%8F/}{vinaygond.github.io} \,|\, \href{https://dev.to/vinaygond/the-500k-tool-that-got-me-a-cease-and-desist-from-40bk}{dev.to}}
 }
+\cvitem{Nov 2025}{\textbf{``How I Engineered 2M Requests/Day Under Platform Rate Constraints''} \\
+    \footnotesize{\href{https://vinaygond.github.io/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/}{vinaygond.github.io}}
+}
+
+%----------------------------------------------------------------------------------------
+\section{Selected Work}
+\vspace*{-2pt}
+\cvitem{Public}{\href{https://github.com/Vinaygond/libr-state-machine-demo}{LIBR state-machine demo} \,|\, \href{https://exitprotocols.com/architect/}{Architect profile} \,|\, \href{https://vinaygond.github.io/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/}{Exit Protocol case study}}
 
 %----------------------------------------------------------------------------------------
 \section{Education}
