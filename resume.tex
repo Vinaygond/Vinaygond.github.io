@@ -1,0 +1,89 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{burgundy}
+
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+\usepackage[scale=0.94, top=0.6cm, bottom=0.6cm, left=0.9cm, right=0.9cm]{geometry}
+
+\name{Vinay Kumar}{Gond}
+\title{Distributed Systems Architect \& Founder, Exit Protocol}
+\address{Rajajinagar, Bangalore, Karnataka}{}{}
+\phone[mobile]{+91 95652 08586}
+\email{vinay@exitprotocols.com}
+\social[linkedin]{vinaygo}
+\social[github]{Vinaygond}
+\homepage{vinaygond.github.io}
+\extrainfo{Open to Senior Backend / Platform / Architect Roles}
+
+\begin{document}
+
+\makecvtitle
+\vspace*{-3.2em}
+
+%----------------------------------------------------------------------------------------
+\section{Professional Summary}
+\vspace*{-2pt}
+\cvitem{}{
+    \small Founder and backend architect building software for \textbf{high-stakes environments} where scale, correctness, and trust must hold together. Currently building \textbf{Exit Protocol}, a forensic litigation intelligence platform for asset tracing and financial discovery. Previously scaled \textbf{Hydra / XLeadScraper} from zero to roughly \textbf{\$500k ARR in six months}, operating distributed pipelines at \textbf{2M+ requests/day}. Core philosophy: use AI where it accelerates judgment; use \textbf{deterministic systems} where proof requires precision; treat \textbf{compliance and platform constraints} as architecture inputs, not afterthoughts.
+}
+
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\vspace*{-2pt}
+\cvitem{\textbf{Core}}{Distributed systems, event-driven architecture, async orchestration, worker queues, rate control, fault isolation, forensic financial intelligence, evidence integrity workflows.}
+\cvitem{\textbf{Languages}}{Python (Django, FastAPI, AsyncIO), TypeScript, Node.js, SQL, Bash.}
+\cvitem{\textbf{Data \& Infra}}{PostgreSQL, Redis, Celery, Docker, Kubernetes, NGINX, AWS, GCP, DigitalOcean, OpenTelemetry.}
+\cvitem{\textbf{Domains}}{LIBR tracing, OCR/document ingestion, transaction normalization, SHA-256 snapshot integrity, AES-256 data protection, AI-assisted review pipelines.}
+
+%----------------------------------------------------------------------------------------
+\section{Engineering Experience}
+
+\cventry{2025--Present}{Founder \& Systems Architect}{Exit Protocol}{Remote}{}{
+    \textit{Forensic litigation intelligence for high-conflict divorce, asset tracing, and financial discovery.}
+    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=2pt]
+        \item \textbf{Deterministic LIBR Engine:} Built a state-machine tracing engine for \textbf{Lowest Intermediate Balance Rule (LIBR)} analysis, producing \textbf{attorney-reviewable workpapers} with visible strategy, ledger agreement, and source provenance.
+        \item \textbf{Document Ingestion Pipeline:} Designed OCR-assisted workflows for PDF bank statements, transaction exports, and discovery packets; normalized dates, amounts, balances, and descriptions for reviewable financial timelines.
+        \item \textbf{Evidence Integrity:} Implemented \textbf{SHA-256} snapshot sealing, file-hash verification, and processing history so counsel and retained experts can inspect what data was used and whether outputs changed.
+        \item \textbf{AI with Hard Boundaries:} Deployed hybrid LLM/OCR flows (Mistral, Gemini) for classification and review support while keeping legal math deterministic and explainable.
+        \item \textbf{Production Platform:} Shipped on \textbf{Django}, \textbf{PostgreSQL}, \textbf{Celery}, \textbf{Redis}, and \textbf{Docker}; added \textbf{OpenTelemetry} tracing and containerized deployment options for sensitive legal data.
+    \end{itemize}
+}
+
+\vspace*{4pt}
+
+\cventry{2024--2025}{Founder \& Lead Architect}{Hydra / XLeadScraper}{Remote}{}{
+    \textit{High-throughput data infrastructure product; roughly \textbf{\$500k ARR in six months}.}
+    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=2pt]
+        \item \textbf{Distributed Scale:} Architected queue-driven worker pools, request orchestration, token separation, and retry/backpressure controls to sustain \textbf{2M+ requests/day} at peak.
+        \item \textbf{Operational Isolation:} Built network and workload isolation patterns across distributed workers, Redis queues, PostgreSQL, and automation services to limit blast radius under production pressure.
+        \item \textbf{Lead Qualification:} Developed enrichment and scoring pipelines that shifted the product from raw volume to structured, higher-intent lead output.
+        \item \textbf{Compliance Pivot:} After platform-policy constraints in late 2024, rebuilt the system around sustainable operation, qualified output, and compliance-aware architecture --- the lesson that now shapes Exit Protocol.
+    \end{itemize}
+}
+
+\vspace*{4pt}
+
+\cventry{Ongoing}{Infrastructure \& Systems Consulting}{Independent}{Remote}{}{
+    \begin{itemize}[nosep, leftmargin=3.5mm, topsep=2pt]
+        \item Backend architecture, high-throughput data processing, technical due diligence, and resilient automation for teams operating under business, legal, or adversarial pressure.
+    \end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+\section{Selected Public Work}
+\vspace*{-2pt}
+\cvitem{Exit Protocol}{\href{https://exitprotocols.com}{exitprotocols.com} \,|\, \href{https://exitprotocols.com/architect/}{Architect profile} \,|\, \href{https://vinaygond.github.io/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/}{Case study}}
+\cvitem{LIBR Demo}{\href{https://github.com/Vinaygond/libr-state-machine-demo}{github.com/Vinaygond/libr-state-machine-demo} --- public reference implementation with fixtures and regression tests}
+\cvitem{Founder Writing}{\href{https://vinaygond.github.io/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/}{2M req/day postmortem} \,|\, \href{https://vinaygond.github.io/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-%F0%9F%95%8F/}{\$500K compliance reset story}}
+
+%----------------------------------------------------------------------------------------
+\section{Education}
+\vspace*{-2pt}
+\cventry{2017--2019}{B.Tech, Electronics \& Communication}{National Institute of Technology (NIT) Mizoram}{}{}{
+    Left before degree completion to pursue practical engineering and founder-led product work.
+}
+
+\end{document}
