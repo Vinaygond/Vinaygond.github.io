@@ -1,11 +1,11 @@
 
-url: 'http://Vinaygond.github.io'
+url: 'https://vinaygond.github.io'
 baseurl: ''
 
-title: Vinay
+title: Vinay Kumar Gond
 
 
-description: I bet everyday!
+description: Distributed systems architect and founder of Exit Protocol. Forensic financial intelligence, compliance-aware infrastructure, and high-throughput backend systems.
 
 
 navbar-links:
@@ -37,22 +37,20 @@ footer-link-col: '#404040'
 
 
 author:
-  name: Vinay
+  name: Vinay Kumar Gond
 
 social-network-links:
   rss: false
   email: 'vinay@exitprotocols.com'
-  #facebook: 
-  #github: 
+  github: Vinaygond
   twitter: vvgond
-  #  reddit: yourname
   instagram: thevclass
-  linkedin: vinaygo
+  linkedin: vinay-gond
  
 share-links-active:
   twitter: true
   facebook: false
-  google: true
+  google: false
   linkedin: true
   instagram: true
 

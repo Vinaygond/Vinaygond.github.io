@@ -28,7 +28,7 @@ Traditional forensic tracing can cost tens of thousands of dollars. For many peo
 
 **Exit Protocol** is my attempt to change that.
 
-It is a forensic litigation intelligence platform built to automate financial discovery, asset tracing, and court-ready reporting for high-conflict cases. The system converts raw financial records into structured evidence, applies deterministic tracing rules, and produces cryptographically sealed reports that attorneys can review, verify, and use.
+It is a forensic litigation intelligence platform built to automate financial discovery, asset tracing, and attorney-reviewable LIBR workpapers for high-conflict cases. The system converts raw financial records into structured evidence, applies deterministic tracing rules, and produces SHA-256-sealed reports that attorneys and retained experts can review, verify, and inspect. Outputs are structured review material — not legal advice, expert opinion, or court filings.
 
 The core idea is simple:
 

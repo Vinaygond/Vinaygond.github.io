@@ -143,7 +143,7 @@ Technical areas I work on:
 - Account timeline reconstruction.
 - Lowest Intermediate Balance Rule (LIBR) tracing.
 - Asset concealment signals.
-- Court-ready report generation.
+- Attorney-reviewable workpaper generation.
 - Evidence sealing and audit trails.
 - Secure matter-level data isolation.
 - AI-assisted case review and communication workflows.
@@ -283,7 +283,7 @@ I am currently going deeper into:
 Forensic litigation intelligence for high-conflict financial cases.
 
 - Stack: Python, Django, PostgreSQL, Celery, Redis, Docker, OCR pipelines, AI-assisted review, cryptographic evidence sealing.
-- Focus: LIBR tracing, document ingestion, transaction classification, secure evidence workflows, court-ready reporting.
+- Focus: LIBR tracing, document ingestion, transaction classification, secure evidence workflows, attorney-reviewable workpapers.
 - Status: Active development, US beta.
 
 ### Hydra / XLeadScraper

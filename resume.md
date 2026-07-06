@@ -87,7 +87,7 @@ Advising and building around resilient automation, backend architecture, data pr
 - Applies deterministic tracing rules for commingled asset analysis.
 - Produces audit-friendly outputs with cryptographic integrity records.
 
-[View Live](https://exitprotocols.com) | [Case Study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
+[View Live](https://exitprotocols.com) | [Architect Profile](https://exitprotocols.com/architect/) | [LIBR Demo](https://github.com/Vinaygond/libr-state-machine-demo) | [Case Study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
 
 ### Hydra / XLeadScraper
 *High-Throughput Data Infrastructure*
@@ -111,4 +111,4 @@ Left before degree completion to pursue practical engineering and founder-led pr
 
 ## Contact
 
-[Email](mailto:vinay@exitprotocols.com) | [Website](https://vinaygond.github.io) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://linkedin.com/in/vinaygo)
+[Email](mailto:vinay@exitprotocols.com) | [Website](https://vinaygond.github.io) | [Exit Protocol](https://exitprotocols.com) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://www.linkedin.com/in/vinay-gond/) | [GitHub](https://github.com/Vinaygond)

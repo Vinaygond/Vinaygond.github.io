@@ -30,7 +30,7 @@ Today, I focus on systems that are not just powerful, but defensible. The goal i
 
 That philosophy now drives my work on **Exit Protocol**, a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
 
-Exit Protocol turns messy financial records into structured, reviewable, court-ready evidence. It combines AI-assisted document processing with deterministic financial tracing, cryptographic evidence sealing, and secure deployment models for sensitive legal data.
+Exit Protocol turns messy financial records into structured, attorney-reviewable evidence. It combines AI-assisted document processing with deterministic financial tracing, SHA-256 snapshot integrity, and secure deployment models for sensitive legal data. Outputs are structured review material for counsel and retained experts — not legal advice, expert opinion, or court filings.
 
 The core belief behind it is simple:
 
@@ -53,7 +53,7 @@ I build backend and infrastructure systems that handle:
 
 - **Distributed Systems:** Async I/O orchestration, worker queues, event-driven architecture, distributed rate limiting, and fault-tolerant pipelines.
 - **Backend Engineering:** Python, Django, FastAPI, Node.js, TypeScript, PostgreSQL, Redis, Celery, Docker, and Kubernetes.
-- **Forensic Intelligence:** Financial document ingestion, transaction normalization, LIBR tracing, asset concealment signals, and court-ready reporting.
+- **Forensic Intelligence:** Financial document ingestion, transaction normalization, LIBR tracing, asset concealment signals, and attorney-reviewable workpapers.
 - **Security & Integrity:** AES-256 encryption, SHA-256 evidence sealing, audit logs, data isolation, and secure deployment models.
 - **Product Strategy:** Building systems that balance speed, revenue, compliance, reliability, and long-term trust.
 
@@ -71,8 +71,15 @@ It designs for it.
 
 ---
 
+### Featured Work
+
+- [**Exit Protocol**](https://exitprotocols.com) — forensic litigation intelligence (live product)
+- [**Architect profile**](https://exitprotocols.com/architect/) — founder case study and public receipts
+- [**LIBR state machine demo**](https://github.com/Vinaygond/libr-state-machine-demo) — public regression-tested tracing reference
+- [**XLeadScraper**](https://xleadscraper.com) — distributed systems postmortem and V2 pivot
+
 ### Connect
 
 I am currently open to serious conversations around senior backend/platform roles, legal-tech infrastructure, forensic intelligence systems, and technical consulting for resilient automation.
 
-[**Email**](mailto:vinay@exitprotocols.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://linkedin.com/in/vinaygo)
+[**Email**](mailto:vinay@exitprotocols.com) | [**Twitter**](https://twitter.com/vvgond) | [**LinkedIn**](https://www.linkedin.com/in/vinay-gond/) | [**GitHub**](https://github.com/Vinaygond)

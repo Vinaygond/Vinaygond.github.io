@@ -27,7 +27,7 @@ Exit Protocol converts messy bank statements, transaction histories, and discove
 
 **Tech Stack:** `Python` `Django` `PostgreSQL` `Celery` `Redis` `Docker` `OCR` `AI APIs` `AES-256` `SHA-256`
 
-[View Project](https://exitprotocols.com) | [Read Case Study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/) | [Research](/research/)
+[View Project](https://exitprotocols.com) | [Architect Profile](https://exitprotocols.com/architect/) | [LIBR Demo](https://github.com/Vinaygond/libr-state-machine-demo) | [Case Study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/) | [Research](/research/)
 
 <br/>
 

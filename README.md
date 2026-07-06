@@ -12,7 +12,7 @@ Most of my experience comes from shipping under pressure: taking products from z
 
 I am building [Exit Protocol](https://exitprotocols.com), a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
 
-The goal is simple: turn messy bank statements, transaction histories, and legal evidence into court-ready analysis that is faster, cheaper, and more reliable than manual spreadsheet work.
+The goal is simple: turn messy bank statements, transaction histories, and legal evidence into attorney-reviewable analysis that is faster, cheaper, and more reliable than manual spreadsheet work.
 
 Core systems I work on:
 
@@ -76,4 +76,4 @@ That lesson now shapes how I build.
 
 ## Connect
 
-[Website](https://vinaygond.github.io) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://linkedin.com/in/vinaygo) | [Email](mailto:vinay@exitprotocols.com)
+[Website](https://vinaygond.github.io) | [Exit Protocol](https://exitprotocols.com) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://www.linkedin.com/in/vinay-gond/) | [GitHub](https://github.com/Vinaygond) | [Email](mailto:vinay@exitprotocols.com)
