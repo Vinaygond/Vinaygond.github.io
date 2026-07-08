@@ -515,6 +515,122 @@ footer .theme-by {
   width: 192px;
 }
 
+.post-image.post-image-document {
+  width: 220px;
+  height: auto;
+  filter: none;
+}
+
+.post-image.post-image-document img {
+  border-radius: 8px;
+  width: 220px;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.featured-cd-preview {
+  margin: 0 auto 2.5rem;
+  max-width: 720px;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.featured-cd-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.featured-cd-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.featured-cd-title a {
+  color: #111827;
+  text-decoration: none;
+}
+
+.featured-cd-title a:hover {
+  color: #0085A1;
+}
+
+.featured-cd-desc {
+  margin: 0 0 1rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.featured-cd-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.featured-cd-grid a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+.featured-cd-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.featured-cd-links {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.featured-cd-links a {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .featured-cd-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cd-evidence-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 1.25rem 0;
+}
+
+.cd-evidence-grid a {
+  display: block;
+}
+
+.cd-evidence-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+@media only screen and (max-width: 600px) {
+  .cd-evidence-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .post-preview .post-read-more {
   font-weight: 800;
 }

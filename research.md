@@ -182,9 +182,14 @@ The cease-and-desist was not the story. It was the invoice for architectural deb
 
 **Primary source — November 2024 legal notice (redacted screenshots):**
 
-![Cease-and-desist correspondence — page 1](/img/cd-email-page1.jpg)
-
-![Cease-and-desist correspondence — page 2](/img/cd-email-page2.jpg)
+<p class="cd-evidence-grid">
+  <a href="/img/cd-email-page1.jpg" target="_blank" rel="noopener">
+    <img src="/img/cd-email-page1.jpg" alt="Cease-and-desist correspondence page 1" class="cd-evidence-img" loading="lazy">
+  </a>
+  <a href="/img/cd-email-page2.jpg" target="_blank" rel="noopener">
+    <img src="/img/cd-email-page2.jpg" alt="Cease-and-desist correspondence page 2" class="cd-evidence-img" loading="lazy">
+  </a>
+</p>
 
 ### The four-layer model
 
