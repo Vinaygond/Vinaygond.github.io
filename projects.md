@@ -51,7 +51,7 @@ It also became an important architectural lesson: throughput is not the same as 
 
 **Tech Stack:** `Python` `AsyncIO` `Redis` `PostgreSQL` `Celery` `TypeScript` `Node.js`
 
-[View Project](https://xleadscraper.com) | [Technical Postmortem](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+[View Project](https://xleadscraper.com) | [$500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report) | [Technical Postmortem](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
 
 <br/>
 

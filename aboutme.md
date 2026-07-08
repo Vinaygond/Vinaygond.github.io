@@ -76,7 +76,8 @@ It designs for it.
 - [**Exit Protocol**](https://exitprotocols.com) — forensic litigation intelligence (live product)
 - [**Architect profile**](https://exitprotocols.com/architect/) — founder case study and public receipts
 - [**LIBR state machine demo**](https://github.com/Vinaygond/libr-state-machine-demo) — public regression-tested tracing reference
-- [**XLeadScraper**](https://xleadscraper.com) — distributed systems postmortem and V2 pivot
+- [**The $500K C&D Report**](https://github.com/Vinaygond/The-500K-C-D-Report) — structured engineering postmortem (detection layers, V1/V2 pivot)
+- [**XLeadScraper**](https://xleadscraper.com) — V2 product and compliance-first rebuild
 
 ### Connect
 
