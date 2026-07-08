@@ -4,311 +4,236 @@ title: Technical Stack
 subtitle: Production Systems, Forensic Intelligence, and Compliance-Aware Infrastructure
 ---
 
-## Core Philosophy
+<div style="text-align: center; margin-bottom: 32px;">
+  <span style="background: #ecfdf5; color: #047857; padding: 6px 14px; border-radius: 9999px; font-weight: 600; font-size: 0.85em; border: 1px solid #a7f3d0;">Distributed Systems Architect · Founder, Exit Protocol</span>
+</div>
 
-I do not treat technology as an identity.
+I choose tools based on the problem — reliability, data sensitivity, operational risk, and long-term maintainability. This page reflects **production experience**, not tutorial familiarity.
 
-I choose tools based on the problem: reliability, speed of iteration, data sensitivity, operational risk, and long-term maintainability. Some systems need boring infrastructure. Some need custom architecture. The point is not to look sophisticated. The point is to ship systems that work under pressure.
-
-My strongest work sits at the intersection of:
-
-- Distributed backend systems.
-- High-throughput data pipelines.
-- Forensic financial intelligence.
-- Legal-tech workflows.
-- AI-assisted document processing.
-- Secure evidence handling.
-- Compliance-aware automation.
+**Related:** [Projects](/projects/) · [Research](/research/) · [Resume](/resume/) · [$500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report)
 
 ---
 
-## Primary Languages
+## Proof points (bounded)
 
-### Python
+| Area | Evidence |
+|---|---|
+| Commercial scale | ~$500k ARR in ~6 months (Hydra / XLeadScraper V1) |
+| Throughput | ~2M requests/day peak; queue-driven worker orchestration |
+| Compliance pivot | V1 → V2 rebuild after Nov 2024 platform reset; public postmortem |
+| Forensic systems | LIBR tracing engine, SHA-256 integrity, attorney-reviewable workpapers |
+| Stack depth | Python/Django production apps, Celery/Redis, Docker, PostgreSQL at scale |
 
-Python is my main production language for backend systems, data processing, automation, and forensic intelligence.
+---
 
-I use it for:
+## Core philosophy
 
-- Django and FastAPI backends.
-- AsyncIO-based orchestration.
-- Celery worker pipelines.
-- OCR and document processing workflows.
-- Transaction normalization and financial tracing.
-- PDF inspection and evidence extraction.
-- Internal automation and operational tooling.
+> **AI accelerates messy document work. Deterministic systems handle proof. Constraints are architecture inputs.**
 
-Relevant libraries and areas:
+I am strongest where scale, sensitive data, legal or financial consequences, and shipping pressure intersect — not where the goal is framework novelty.
 
-- Django, FastAPI, Flask.
-- AsyncIO, Celery, Redis queues.
-- Pandas, NumPy, pypdf, Pillow.
-- OCR and document parsing pipelines.
-- SQLAlchemy-style data modeling patterns.
+**Intersection of my work:**
+
+- Distributed backend systems and async orchestration
+- High-throughput data pipelines with isolation boundaries
+- Forensic financial intelligence and legal-tech workflows
+- AI-assisted document processing with hard determinism boundaries
+- Secure evidence handling and cryptographic audit trails
+- Compliance-aware automation and platform-risk engineering
+
+---
+
+## Primary languages
+
+### Python *(production default)*
+
+Backend systems, forensic pipelines, automation, OCR workflows, PDF processing, transaction normalization.
+
+- **Frameworks:** Django (primary), FastAPI, Flask
+- **Async & workers:** AsyncIO, Celery, Redis queues
+- **Data & docs:** Pandas, NumPy, pypdf, Pillow, OCR pipelines
+- **Patterns:** State machines, idempotent tasks, matter-scoped data models
 
 ### JavaScript / TypeScript / Node.js
 
-I use JavaScript and TypeScript for async services, product interfaces, integrations, and workflow tooling.
-
-I use them for:
-
-- Node.js backend services.
-- API integrations.
-- Frontend and product surfaces.
-- Real-time workflows.
-- Automation dashboards.
-- Internal tools.
+Async services, API integrations, product surfaces, automation dashboards, internal tooling.
 
 ### SQL
 
-I use SQL heavily for financial data, audit trails, transaction history, reconciliation, reporting, and system state.
+Financial data, audit trails, reconciliation, reporting, transactional workflows.
 
-Core experience:
-
-- PostgreSQL schema design.
-- Relational modeling.
-- Transactional workflows.
-- Query optimization.
-- Time-series-style financial analysis.
-- Audit and reporting queries.
+- PostgreSQL schema design, query optimization, time-series-style financial analysis
 
 ### Bash
 
-I use Bash for deployment support, server automation, debugging, and operational workflows.
+Deployment automation, server debugging, operational scripts.
 
 ---
 
-## Backend and Product Infrastructure
+## Backend & integration
 
-### Frameworks
+| Capability | Experience |
+|---|---|
+| API design | REST, webhooks, internal service boundaries |
+| Auth | OAuth 2.0 / PKCE, session management, RBAC |
+| Ingestion | Secure file upload, document parsing, webhook-driven pipelines |
+| Third-party APIs | Rate-aware integration, backoff, credential isolation |
 
-- **Django:** Primary framework for full-stack backend systems, admin workflows, authentication, structured business logic, and production applications.
-- **FastAPI:** Async APIs, service boundaries, and high-performance internal endpoints.
-- **Flask:** Lightweight APIs, quick services, and focused internal tools.
-- **Node.js:** Async I/O services, integrations, automation, and event-driven workflows.
-
-### APIs and Integration
-
-- REST API design.
-- Webhooks.
-- OAuth 2.0 and PKCE flows.
-- Role-based access control.
-- Internal service APIs.
-- Third-party API integration.
-- Secure file and document ingestion.
+**Frameworks:** Django · FastAPI · Flask · Node.js
 
 ---
 
-## Distributed Systems
+## Distributed systems
 
-I have built and operated systems where throughput, failure handling, and workload isolation mattered from day one.
+Built and operated systems where throughput, failure handling, and **workload isolation** mattered from day one.
 
-Experience includes:
+**Patterns:**
 
-- Async worker orchestration.
-- Queue-based task processing.
-- Distributed rate limiting.
-- Backpressure and retry design.
-- Idempotent job processing.
-- Worker health checks.
-- Load distribution.
-- Cache strategy.
-- Failure isolation.
-- Long-running document and data-processing jobs.
+- Async worker orchestration and queue-based processing
+- Distributed rate limiting, backpressure, retry/dead-letter design
+- Idempotent job processing and circuit breakers
+- Failure isolation and blast-radius control
+- Cache strategy, load distribution, worker health checks
+- Structured logging and queue visibility
 
-Tools and patterns:
+**Tools:** Redis · Celery · PostgreSQL · Docker · Kubernetes · NGINX · OpenTelemetry-style instrumentation
 
-- Redis.
-- Celery.
-- PostgreSQL.
-- Docker.
-- Kubernetes.
-- NGINX.
-- Message queues.
-- Circuit breakers.
-- Event-driven architecture.
-- Structured logging.
+**Hard lesson (documented publicly):** A system can sustain millions of requests per day and still fail when shared infrastructure creates correlated platform risk. See [The $500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report).
 
 ---
 
-## Forensic Intelligence and Legal-Tech Systems
+## Platform detection & compliance-aware architecture
 
-My current focus is **Exit Protocol**, a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
+From the Hydra / XLeadScraper postmortem — applicable to any third-party platform dependency:
 
-Technical areas I work on:
+```
+Layer 1  Per-endpoint rate limits
+Layer 2  Per-IP / per-token scoring
+Layer 3  Behavioral anomaly detection
+Layer 4  Network-wide pattern correlation
+```
 
-- Bank statement ingestion.
-- OCR-assisted financial record extraction.
-- Transaction classification.
-- Account timeline reconstruction.
-- Lowest Intermediate Balance Rule (LIBR) tracing.
-- Asset concealment signals.
-- Attorney-reviewable workpaper generation.
-- Evidence sealing and audit trails.
-- Secure matter-level data isolation.
-- AI-assisted case review and communication workflows.
+**Design checklist I now apply:**
 
-The key design principle:
+1. What throughput does the customer actually consume?
+2. Can one tenant's behavior correlate with another's?
+3. Are credentials shared across users?
+4. Does timing look human under ML inspection?
+5. What dies if one node is flagged?
+6. Can trust be rebuilt after a policy event?
+7. Can every system action be explained afterward?
 
-**AI helps turn messy documents into reviewable structure. Deterministic systems handle the legal math.**
-
----
-
-## AI and Document Processing
-
-I use AI where it improves speed and judgment without replacing deterministic proof.
-
-Practical AI use cases:
-
-- OCR cleanup.
-- Statement parsing.
-- Transaction categorization.
-- Legal document summarization.
-- Review note generation.
-- Communication rewriting.
-- Pattern detection across messy records.
-
-I avoid using probabilistic models as the final source of truth for legal or financial conclusions. For those areas, the system needs explainable rules, traceable inputs, and repeatable outputs.
+[Full framework](https://github.com/Vinaygond/The-500K-C-D-Report/blob/main/docs/lessons-for-builders.md)
 
 ---
 
-## Security, Privacy, and Evidence Integrity
+## Forensic intelligence & legal-tech
 
-Exit Protocol and similar systems operate on sensitive legal and financial data, so security is part of the architecture rather than an afterthought.
+Current focus: **Exit Protocol** — forensic litigation intelligence for high-conflict asset disputes.
 
-Relevant experience:
+**V1 product scope:** Single-claim LIBR tracing workpapers (default export path). Multi-claim pro-rata workpapers require separate review.
 
-- AES-256 encryption concepts and secure storage design.
-- SHA-256 evidence sealing.
-- Tamper-evident report workflows.
-- Audit logs.
-- Access controls.
-- Matter-level data isolation.
-- Secure document handling.
-- Bring-your-own-key deployment models.
-- Containerized private deployments.
-- Privacy-aware data processing.
+**Technical areas:**
 
-I care about being able to answer two questions:
+- Bank statement and discovery PDF ingestion
+- OCR-assisted extraction and transaction classification
+- Account timeline reconstruction
+- LIBR deterministic tracing (state-machine, not LLM math)
+- Attorney-reviewable workpaper generation with visible strategy
+- SHA-256 snapshot sealing and exact file-hash verification
+- Source provenance links to selected records
+- Matter-level data isolation and secure deployment options
+
+**Boundary:** Outputs are structured review material for counsel and retained experts — not legal advice, expert opinion, or court filings.
+
+[Research deep-dive](/research/) · [LIBR demo](https://github.com/Vinaygond/libr-state-machine-demo) · [Projects](/projects/)
+
+---
+
+## AI & document processing
+
+AI where it improves speed and judgment **without** replacing deterministic proof:
+
+| AI-assisted | Deterministic (never delegated to LLM) |
+|---|---|
+| OCR cleanup, layout parsing | LIBR tracing math |
+| Transaction categorization drafts | Ledger totals and strategy disclosure |
+| Review note generation | SHA-256 integrity records |
+| Communication rewriting (B.I.F.F.) | Workpaper export scope guards |
+
+Probabilistic models do not serve as the final source of truth for legal or financial conclusions.
+
+---
+
+## Security, privacy & evidence integrity
+
+Sensitive legal and financial data requires security as an **architecture input**.
+
+- AES-256 encryption at rest (design-level)
+- SHA-256 evidence sealing and tamper-evident workflows
+- Audit logs, access controls, matter-level isolation
+- Bring-your-own-key and containerized private deployments
+- Local-first patterns where appropriate (honest trust boundaries — not marketing claims)
+
+**Two questions every forensic system must answer:**
 
 1. Who had access to the evidence?
 2. Can we prove whether the evidence or report changed?
 
 ---
 
-## Infrastructure and Deployment
+## Infrastructure & deployment
 
-Tools and platforms I have used in production or serious build environments:
+**Production experience:** Docker · Kubernetes · Redis · Celery · PostgreSQL · MySQL · NGINX · Linux · AWS · GCP · DigitalOcean · Git/GitHub · CI/CD · secrets management
 
-- Docker.
-- Kubernetes.
-- Redis.
-- Celery.
-- PostgreSQL.
-- MySQL.
-- NGINX.
-- Linux servers.
-- AWS.
-- GCP.
-- DigitalOcean.
-- Git and GitHub.
-- CI/CD workflows.
-- Environment-based secrets.
-- Logging and monitoring pipelines.
-
-Observability patterns:
-
-- Structured application logs.
-- Worker health monitoring.
-- Queue visibility.
-- Error tracking.
-- Performance profiling.
-- OpenTelemetry-style instrumentation.
+**Observability:** Structured logs · worker health · queue depth · error tracking · performance profiling
 
 ---
 
-## High-Throughput Systems Experience
+## Architecture patterns (recurring)
 
-My first major venture, Hydra / XLeadScraper, taught me how to design systems around throughput, isolation, queueing, and operational constraints.
-
-That system reached roughly **$500k ARR in six months** and operated at millions of requests per day.
-
-The important technical lessons were:
-
-- Throughput is only one metric.
-- Fast systems still fail if they ignore platform constraints.
-- Isolation, rate control, observability, and compliance are architectural concerns.
-- A durable product needs trust, not just speed.
-
-That experience now informs how I build more defensible systems.
+- Event-driven workflows and async worker pools
+- Deterministic state machines with human-review checkpoints
+- Idempotent tasks, circuit breakers, dead-letter queues
+- Transactional boundaries and versioned report generation
+- Rate limiting and cache invalidation
+- Audit logging and secure file ingestion
+- Per-tenant / per-matter isolation
 
 ---
 
-## Architecture Patterns I Use
+## Production systems
 
-- Event-driven workflows.
-- Async worker pools.
-- Queue-based processing.
-- Idempotent tasks.
-- Circuit breakers.
-- Retry and dead-letter patterns.
-- Rate limiting.
-- Cache invalidation.
-- Transactional boundaries.
-- Audit logging.
-- Deterministic state machines.
-- Human-review checkpoints.
-- Secure file ingestion.
-- Versioned report generation.
+### Exit Protocol *(2025 – present)*
+Forensic litigation intelligence · Django, PostgreSQL, Celery, Redis, Docker, OCR, SHA-256 integrity · [exitprotocols.com](https://exitprotocols.com)
+
+### Hydra / XLeadScraper *(2023 – present)*
+High-throughput data infrastructure · ~2M req/day peak, ~$500k ARR V1 · compliance pivot documented publicly · [xleadscraper.com](https://xleadscraper.com)
+
+### ZeroTrace *(2025, research prototype)*
+Identity-locked ephemeral messaging experiment · Django, Fernet, OAuth · [post](/2025-12-04-building-zerotrace/)
+
+### Consulting *(ongoing)*
+Backend architecture, high-throughput pipelines, technical due diligence, resilient automation under operational and legal pressure.
 
 ---
 
-## Current Learning
+## Currently learning
 
-I am currently going deeper into:
-
-- Rust for performance-critical systems.
-- WebAssembly for portable compute.
-- GraphQL for complex data access patterns.
-- Advanced OCR and document intelligence.
-- Cryptographic evidence workflows.
-- Privacy-preserving deployment models.
+- Rust for performance-critical components
+- Advanced OCR and document intelligence
+- Cryptographic evidence workflows
+- Privacy-preserving deployment models
+- WebAssembly for portable compute
 
 ---
 
-## Production Systems Built
-
-### Exit Protocol
-
-Forensic litigation intelligence for high-conflict financial cases.
-
-- Stack: Python, Django, PostgreSQL, Celery, Redis, Docker, OCR pipelines, AI-assisted review, cryptographic evidence sealing.
-- Focus: LIBR tracing, document ingestion, transaction classification, secure evidence workflows, attorney-reviewable workpapers.
-- Status: Active development, US beta.
-
-### Hydra / XLeadScraper
-
-High-throughput data infrastructure and automation product.
-
-- Stack: Python, AsyncIO, Redis, PostgreSQL, distributed workers, TypeScript/Node.js, automation tooling.
-- Scale: Millions of requests per day at peak.
-- Outcome: Reached roughly $500k ARR in six months and produced the operating lessons that now shape my compliance-aware architecture.
-
-### Infrastructure and Consulting Projects
-
-Systems design and technical strategy work across distributed systems, automation, resilience, and high-throughput backend architecture.
-
----
-
-## Bottom Line
-
-I build systems that turn messy real-world problems into reliable software pipelines.
-
-I am strongest when the work involves scale, sensitive data, high-pressure constraints, legal or financial consequences, and the need to ship something real instead of just talking about architecture.
+## Bottom line
 
 **Learn what the problem demands. Use what is proven. Build what lasts.**
 
----
+I turn messy real-world problems into reliable software pipelines — with bounded claims, explainable outputs, and architecture that survives platform, legal, and operational pressure.
 
-*Last Updated: May 2026*  
-*Technologies listed here reflect tools I have used in real systems, not tutorial familiarity.*
+[View projects](/projects/) · [Read research](/research/) · [Email me](mailto:vinay@exitprotocols.com)
+
+*Last updated: July 2026*

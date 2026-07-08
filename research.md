@@ -1,16 +1,34 @@
 ---
 layout: page
 title: Research
-subtitle: Forensic Systems, Security Architecture, and Market Mechanics
+subtitle: Forensic Systems, Platform Risk, and Security Architecture
+---
+
+<div style="text-align: center; margin-bottom: 32px;">
+  <span style="background: #faf5ff; color: #6b21a8; padding: 6px 14px; border-radius: 9999px; font-weight: 600; font-size: 0.85em; border: 1px solid #e9d5ff;">Engineering research & case studies · Vinay Kumar Gond</span>
+</div>
+
+Long-form analysis on systems problems where correctness, auditability, and trust boundaries matter. These are **engineering research notes** — not peer-reviewed papers, not legal advice, not product marketing.
+
+**Index**
+
+| Study | Focus | Date |
+|---|---|---|
+| [Forensic Accounting Pipeline](#case-study-the-algorithmic-transformation-of-forensic-accounting) | LIBR tracing, OCR, evidence integrity | Mar 2026 |
+| [Platform Detection & Blast Radius](#case-study-platform-detection-and-architectural-blast-radius) | Four-layer enforcement, V1/V2 pivot | Nov 2025 |
+| [Subscription Media Leakage](#case-study-content-leakage-vectors-in-subscription-media) | DRM, access control, incentives | Feb 2024 |
+
+**Related:** [Projects](/projects/) · [Technical stack](/technicalskills/) · [Exit Protocol](https://exitprotocols.com) · [$500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report)
+
 ---
 
 ## Case Study: The Algorithmic Transformation of Forensic Accounting
 
 - **Date:** March 2026
-- **Focus:** Distributed Systems, OCR Pipelines, Algorithmic Asset Tracing, Evidence Integrity
-- **Paper Link:** [Read the Full Paper](https://vinaygond.github.io/Exit%20Protocol_%20Forensic%20Accounting%20Analysis.pdf)
-
----
+- **Focus:** Distributed systems, OCR pipelines, deterministic asset tracing, evidence integrity
+- **Implementation:** [Exit Protocol](https://exitprotocols.com)
+- **Paper:** [Read the full PDF](https://vinaygond.github.io/Exit%20Protocol_%20Forensic%20Accounting%20Analysis.pdf)
+- **Product case study:** [Blog post](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
 
 ### Abstract
 
@@ -18,150 +36,122 @@ High-conflict financial litigation often depends on one difficult task: proving 
 
 Today, that work is still largely manual. Attorneys and forensic accountants review PDFs, rebuild account histories in spreadsheets, and trace funds transaction by transaction. The process can take weeks, cost tens of thousands of dollars, and still remain vulnerable to human error.
 
-This research explores how forensic accounting can be rebuilt as a deterministic software pipeline. Using structured document ingestion, OCR-assisted extraction, state-machine tracing, and cryptographic evidence sealing, systems like **Exit Protocol** can reduce weeks of manual review into minutes of repeatable computation.
+This research explores how forensic accounting can be rebuilt as a **deterministic software pipeline** — structured ingestion, OCR-assisted extraction, state-machine tracing, and cryptographic evidence sealing — so review cycles compress without sacrificing explainability.
 
-The core principle is simple:
+> **Use AI to accelerate document understanding. Use deterministic systems where legal proof requires precision.**
 
-**Use AI to accelerate document understanding. Use deterministic systems where legal proof requires precision.**
-
----
-
-### 1. The Bottleneck of Manual Tracing
-
-Traditional tracing workflows rely on human reviewers to extract data from bank statements, normalize transactions, reconstruct account timelines, and apply legal accounting rules across long periods of financial activity.
-
-That introduces several structural problems:
-
-- **High cost:** Manual forensic accounting can exceed $50,000 in complex cases.
-- **Human error:** Spreadsheet-driven workflows are fragile, especially across multiple accounts and years of transactions.
-- **Access asymmetry:** The party with more money can afford deeper analysis, while the other may be unable to prove what happened.
-- **Slow review cycles:** Attorneys often wait weeks before receiving a usable financial picture.
-- **Weak auditability:** Manual conclusions can be difficult to reproduce or verify.
-
-One of the most important risks is the **replenishment fallacy**: incorrectly assuming later deposits restore previously depleted separate-property funds. In LIBR tracing, this can mathematically invalidate the analysis.
-
-The problem is not just financial. It is architectural.
+**Scope note:** Exit Protocol V1 focuses on single-claim LIBR tracing workpapers. Outputs are attorney-reviewable structured review material — not legal advice, expert opinion, or court filings.
 
 ---
 
-### 2. Proposed Architecture: Deterministic Financial Tracing
+### 1. The bottleneck of manual tracing
 
-To be useful in litigation, a forensic system cannot behave like a black box. It must produce results that are explainable, repeatable, and tied directly to the underlying evidence.
+Traditional workflows rely on human reviewers to extract data from bank statements, normalize transactions, reconstruct timelines, and apply accounting rules across years of activity.
 
-Exit Protocol treats asset tracing as a state-machine problem.
+Structural problems:
 
-The pipeline follows a clear sequence:
+- **High cost** — complex cases can exceed $50,000 in forensic accounting fees
+- **Human error** — spreadsheet workflows fracture across accounts and date ranges
+- **Access asymmetry** — deeper analysis favors the party that can afford it
+- **Slow cycles** — attorneys wait weeks for a usable financial picture
+- **Weak auditability** — manual conclusions are hard to reproduce
 
-1. Ingest financial records.
-2. Extract structured transaction data.
-3. Normalize dates, amounts, descriptions, and balances.
-4. Reconcile account timelines.
-5. Apply deterministic tracing rules.
-6. Generate reviewable outputs.
-7. Seal the evidence package cryptographically.
+The **replenishment fallacy** is especially dangerous: assuming later deposits restore previously depleted separate-property funds. In LIBR tracing, that error can invalidate the entire analysis.
 
-For **Lowest Intermediate Balance Rule (LIBR)** analysis, the tracing engine evaluates the account state after each transaction and calculates the remaining traceable balance using deterministic logic.
+The problem is architectural, not just financial.
 
-A simplified version of the rule:
+---
+
+### 2. Proposed architecture: deterministic financial tracing
+
+A forensic system useful in litigation cannot be a black box. Results must be explainable, repeatable, and tied to underlying evidence.
+
+**Pipeline sequence:**
+
+1. Ingest financial records
+2. Extract structured transaction data
+3. Normalize dates, amounts, descriptions, balances
+4. Reconcile account timelines
+5. Apply deterministic tracing rules
+6. Generate reviewable outputs
+7. Seal the evidence package cryptographically
+
+**LIBR (Lowest Intermediate Balance Rule)** modeled as a state machine:
 
 ```text
 S_t = min(S_{t-1}, B_t)
 ```
 
-Where:
+- `S_t` — traceable separate-property balance at time `t`
+- `S_{t-1}` — previous traceable balance
+- `B_t` — account balance at time `t`
 
-- `S_t` is the traceable separate-property balance at time `t`.
-- `S_{t-1}` is the previous traceable balance.
-- `B_t` is the account balance at time `t`.
+The system follows the math; it does not invent conclusions.
 
-This design prevents the system from inventing conclusions. It follows the math.
-
----
-
-### 3. OCR and Document Intelligence
-
-The hardest part of forensic automation is not the tracing formula. It is the input.
-
-Financial evidence usually arrives as messy PDFs: scanned statements, degraded tables, inconsistent formats, partial exports, and multi-page discovery packets.
-
-A practical forensic system needs more than basic OCR. It needs layout-aware ingestion.
-
-Exit Protocol is designed around:
-
-- Spatial table extraction.
-- Transaction row reconstruction.
-- Date, amount, balance, and description parsing.
-- Duplicate detection.
-- Account-level reconciliation.
-- Human-review checkpoints for ambiguous records.
-- Clear separation between extracted data, edited data, and computed outputs.
-
-AI and OCR models are useful here because they reduce document chaos into structured review surfaces. But the final tracing logic remains deterministic.
-
-That separation is critical.
+[Public LIBR reference implementation](https://github.com/Vinaygond/libr-state-machine-demo)
 
 ---
 
-### 4. Zone of Truth Simulation
+### 3. OCR and document intelligence
 
-Banking records often lack perfect intra-day ordering. Multiple transactions may share the same date without reliable timestamps, which creates ambiguity in balance-sensitive tracing.
+The hardest part is not the tracing formula — it is the input. Evidence arrives as scanned PDFs, degraded tables, inconsistent formats, and multi-page discovery packets.
 
-Instead of pretending the missing order is knowable, a stronger system should model the uncertainty.
+Requirements beyond basic OCR:
 
-Exit Protocol uses the concept of a **Zone of Truth**: running plausible ordering scenarios, including conservative and favorable interpretations, to bracket the possible traceable balance.
+- Spatial table extraction and transaction row reconstruction
+- Date, amount, balance, description parsing
+- Duplicate detection and account-level reconciliation
+- Human-review checkpoints for ambiguous records
+- Clear separation: extracted data → human edits → computed outputs
 
-This gives reviewers a more honest answer:
+AI/OCR reduce document chaos into review surfaces. Tracing logic stays deterministic.
+
+---
+
+### 4. Zone of Truth simulation
+
+Banking records often lack intra-day ordering. Multiple transactions share a date without reliable timestamps — creating ambiguity in balance-sensitive tracing.
+
+Instead of pretending order is knowable, model the uncertainty. **Zone of Truth** runs plausible ordering scenarios (conservative and favorable) to bracket the possible traceable balance.
+
+Reviewers get an honest answer:
 
 - What is definitely traceable?
 - What is potentially traceable?
 - Where does ambiguity remain?
 - Which missing records would narrow the range?
 
-In litigation, acknowledging uncertainty is stronger than hiding it.
+Acknowledging uncertainty is stronger than hiding it.
 
 ---
 
-### 5. Cryptographic Chain of Custody
+### 5. Cryptographic chain of custody
 
-A forensic report is only useful if it can be trusted.
+SHA-256 hashing on data snapshots and report artifacts detects later modification.
 
-Exit Protocol seals evidence packages using SHA-256 hashing so that any later modification to the source data or generated report can be detected.
+Preserved records:
 
-The system is designed to preserve:
+- Source-document references and processing history
+- Extracted transactions, human edits, review notes
+- Computed tracing outputs and versioned report artifacts
+- Hash-sealed final dossiers
 
-- Source-document references.
-- Processing history.
-- Extracted transaction records.
-- Human edits and review notes.
-- Computed tracing outputs.
-- Versioned report artifacts.
-- Hash-sealed final dossiers.
-
-The goal is not just to answer "What did the system find?"
-
-The goal is to answer:
-
-**Can we prove how the system got there?**
+The question is not only *what did the system find?* — it is **can we prove how it got there?**
 
 ---
 
-### 6. Sovereign Deployment and Sensitive Data
+### 6. Sovereign deployment and sensitive data
 
-Financial litigation involves deeply sensitive information: bank accounts, income records, transfers, family assets, business interests, and sometimes coercive control.
+Financial litigation involves bank accounts, income, transfers, family assets, and sometimes coercive control. Privacy is foundational.
 
-For law firms and high-conflict matters, privacy cannot be treated as a secondary feature.
+Deployment models supporting:
 
-Exit Protocol is designed with deployment models that support:
+- Private infrastructure and containerized execution
+- Firm-controlled storage and bring-your-own-key options
+- Matter-level data isolation, audit logs, access controls
+- Reduced exposure to unnecessary third-party systems
 
-- Private infrastructure.
-- Containerized execution.
-- Firm-controlled data storage.
-- Bring-your-own-key security models.
-- Matter-level data isolation.
-- Audit logs and access controls.
-- Reduced exposure to third-party systems.
-
-This is especially important when attorney-client privilege, financial privacy, and personal safety intersect.
+Especially relevant where attorney-client privilege, financial privacy, and personal safety intersect.
 
 ---
 
@@ -169,154 +159,135 @@ This is especially important when attorney-client privilege, financial privacy, 
 
 Forensic accounting should not depend entirely on who can afford weeks of manual spreadsheet reconstruction.
 
-By treating asset tracing as a deterministic systems problem, legal teams can move faster while preserving auditability, explainability, and evidentiary discipline.
+The future is not a black-box AI report. It is a structured evidence pipeline: machine-assisted where documents are messy, deterministic where law requires precision, cryptographically sealed where trust matters.
 
-The future of forensic accounting is not a black-box AI report.
+*Analysis by Vinay Kumar Gond · [Projects](/projects/) · [Technical stack](/technicalskills/)*
 
-It is a structured evidence pipeline: machine-assisted where documents are messy, deterministic where law requires precision, and cryptographically sealed where trust matters.
+<br/><br/>
 
 ---
 
-*Analysis by Vinay Kumar Gond.*  
-*Related Capabilities: [Distributed Systems](/projects/), [Technical Arsenal](/technicalskills/)*
+## Case Study: Platform Detection and Architectural Blast Radius
 
-<br>
-<br>
+- **Date:** November 2025 (ongoing documentation)
+- **Focus:** Multi-layer platform enforcement, throughput vs durability, compliance pivot
+- **Artifact:** [The $500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report)
+- **Blog:** [Postmortem summary](/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) · [Technical deep-dive](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+
+### Abstract
+
+This case study documents what happened when a distributed data product scaled faster than its **compliance and isolation boundaries** could support — roughly **$500k ARR in six months**, **2M+ requests/day** at peak, and a platform cease-and-desist in November 2024.
+
+The cease-and-desist was not the story. It was the invoice for architectural debt.
+
+### The four-layer model
+
+Platform enforcement stacks — beating Layer 1 alone does not create durability:
+
+| Layer | Mechanism | V1 outcome |
+|---|---|---|
+| **1** | Per-endpoint rate limits | Addressed via endpoint rotation |
+| **2** | Per-IP / per-token scoring | Delayed via proxy/token mesh |
+| **3** | Behavioral anomaly detection | Failed — throughput-optimized timing |
+| **4** | Network-wide correlation | Terminal — shared infrastructure blast radius |
+
+### Key findings
+
+1. **Throughput ≠ architecture** — orchestration without isolation creates correlated failure
+2. **Shared infrastructure converts individual risk into systemic risk** — 30+ customers affected
+3. **Speed became a vanity metric** — most customers needed 50–200 qualified leads/day, not 2M profiles
+4. **Compliance is a design constraint** — V2 rebuilt around single-user OAuth, per-tenant isolation, conservative API utilization
+
+### Portable lessons (applied at Exit Protocol)
+
+| Lesson | Exit Protocol application |
+|---|---|
+| Blast-radius control | Matter-level data isolation |
+| Deterministic outputs | LIBR engine; legal math not in LLMs |
+| Reviewable artifacts | Attorney-reviewable workpapers + provenance |
+| Integrity records | SHA-256 sealing, exact file-hash verification |
+| AI boundaries | AI for documents; determinism for proof |
+
+[Full report](https://github.com/Vinaygond/The-500K-C-D-Report/blob/main/REPORT.md) · [Detection layers doc](https://github.com/Vinaygond/The-500K-C-D-Report/blob/main/docs/detection-layers.md) · [Builder checklist](https://github.com/Vinaygond/The-500K-C-D-Report/blob/main/docs/lessons-for-builders.md)
+
+*Analysis by Vinay Kumar Gond · [Projects](/projects/)*
+
+<br/><br/>
+
+---
 
 ## Case Study: Content Leakage Vectors in Subscription Media
 
 - **Date:** February 2024
-- **Focus:** Digital Rights Management, Platform Security, Access Control, Market Incentives
-
----
+- **Focus:** Digital rights management, platform security, access control, market incentives
 
 ### Abstract
 
-Subscription media platforms face a structural security problem: once access is granted, content is often treated as permanently available to the user, even when the creator intended limited or conditional access.
+Subscription media platforms face a structural security problem: once access is granted, content is often treated as permanently available — even when the creator intended limited or conditional access.
 
-This creates a mismatch between platform design and creator risk.
+The issue is architecture, not only piracy. Platforms optimize for delivery speed and CDN efficiency, which can produce long-lived access links, weak traceability, insufficient watermarking, and poor economic deterrence against redistribution.
 
-The issue is not only piracy. It is architecture.
+### 1. The structural problem
 
-Most platforms optimize for fast delivery, low friction, and CDN efficiency. Those priorities are valid, but they can also create weak points: long-lived access links, limited traceability, insufficient watermarking, and poor economic deterrence against redistribution.
+Bulk archive access creates:
 
-This research explores how subscription media systems can shift from static access models to dynamic, traceable, and creator-protective delivery systems.
+- **Bulk access risk** — short subscriptions expose large historical libraries
+- **Weak traceability** — leaked content is hard to source to an account
+- **Creator trust decay** — platforms cannot enforce meaningful accountability
 
----
+Leakage is often treated as moderation after the fact. Stronger systems treat it as **access-control and incentive design** from the start.
 
-### 1. The Structural Problem
+### 2. Static vs dynamic access
 
-In many subscription systems, a user pays once and receives broad access to a large content archive.
+**Static:** authorize once, serve forever.
 
-That creates three market-level problems:
+**Dynamic:** who is requesting, what are they entitled to, for how long, under what conditions, can this copy be traced, can access be revoked narrowly?
 
-- **Bulk access risk:** A short subscription window can expose years of creator content.
-- **Weak traceability:** If content appears elsewhere, platforms may struggle to identify the source account.
-- **Creator trust decay:** Creators lose confidence when platforms cannot enforce meaningful accountability.
+### 3. Proposed architecture: atomic content access
 
-The current model often treats leakage as a moderation problem after the fact.
+Move from unlimited archive defaults to per-object, time-limited, traceable access:
 
-A stronger model treats it as an access-control and incentive-design problem from the beginning.
+- Encrypted storage at rest
+- Just-in-time authorization per media object
+- Short-lived, narrowly scoped delivery tokens
+- Forensic watermarking (visible + invisible per-user markers)
+- Access logging for audit and abuse investigation
+- Rate-aware bulk-viewing friction
+- Creator-selectable protection tiers
 
----
+Goal: change the **economics** of redistribution — make leakage traceable, risky, and expensive. No system prevents screenshots entirely.
 
-### 2. Static Access vs Dynamic Access
+### 4. Watermarking and accountability
 
-Static access is simple: once a user is authorized, the platform serves the file.
+Combine visible deterrence, invisible per-user fingerprints, session markers, delivery-time transformation, device correlation, and audit logs tied to unlock events. Enforcement shifts from guesswork to evidence-backed action.
 
-Dynamic access is more defensive. It asks:
+### 5. Market impact
 
-- Who is requesting the content?
-- What exactly are they allowed to view?
-- For how long?
-- Under what conditions?
-- Can this copy be traced if it leaks?
-- Can access be revoked or limited without breaking the whole system?
+**Creators:** higher trust, premium protection, flexible monetization, stronger abuse evidence.
 
-For sensitive creator media, these questions should be part of the core architecture.
+**Platforms:** lower moderation burden, creator retention, security as differentiator.
 
----
-
-### 3. Proposed Architecture: Atomic Content Access
-
-A better system would move away from unlimited archive access as the default and toward **atomic content access**.
-
-In this model, access happens at the level of individual media objects, bundles, or time-limited unlocks rather than unrestricted historical archives.
-
-Core components include:
-
-- **Encrypted storage:** Media is encrypted at rest.
-- **Just-in-time authorization:** Access is granted only when a user is entitled to view a specific item.
-- **Short-lived delivery tokens:** Content URLs expire quickly and are scoped narrowly.
-- **Forensic watermarking:** Media can include invisible or visible user-specific markers.
-- **Access logging:** Every view event is recorded for audit and abuse investigation.
-- **Rate-aware archive protection:** Unusual bulk viewing patterns trigger review or friction.
-- **Creator controls:** Creators can choose stricter protection for premium or sensitive content.
-
-The point is not to make leakage impossible. No system can fully prevent recording or screenshots.
-
-The goal is to change the economics.
-
-If redistribution becomes traceable, risky, and expensive, abuse becomes less attractive.
-
----
-
-### 4. Watermarking and Accountability
-
-Watermarking is not just a visual overlay. A mature system can combine multiple signals:
-
-- Visible watermarks for deterrence.
-- Invisible per-user media fingerprints.
-- Session-level access markers.
-- Delivery-time transformation.
-- Account and device correlation.
-- Audit logs tied to unlock events.
-
-If leaked content appears elsewhere, the platform should be able to identify the likely source account with high confidence.
-
-That changes enforcement from guesswork to evidence-backed action.
-
----
-
-### 5. Market Impact
-
-Better content security changes incentives for every participant.
-
-For creators:
-
-- Higher trust in the platform.
-- Better protection for premium content.
-- More flexible monetization models.
-- Stronger evidence when abuse occurs.
-
-For platforms:
-
-- Lower moderation burden.
-- Better creator retention.
-- Premium security as a product differentiator.
-- Clearer enforcement workflows.
-
-For users:
-
-- More transparent access rules.
-- Fewer broad restrictions caused by abuse from a minority of accounts.
-- A healthier creator economy with more sustainable content models.
-
-The best security systems do not only block bad behavior. They reshape incentives so bad behavior becomes less profitable.
-
----
+**Users:** clearer rules, fewer blanket restrictions from minority abuse.
 
 ### Conclusion
 
-Content leakage is often framed as a legal or moderation problem, but at scale it is a distributed systems problem.
+Creator security at scale is a distributed systems problem: encryption + short-lived access + watermarking + audit logs + incentive-aware product design.
 
-Platforms need architectures that combine encryption, short-lived access, watermarking, audit logs, and incentive-aware product design.
+*Analysis by Vinay Kumar Gond · [Technical stack](/technicalskills/)*
 
-The future of creator security is not just "take down leaked content faster."
-
-It is building platforms where access is dynamic, traceable, and aligned with creator control from the start.
+<br/><br/>
 
 ---
 
-*Analysis by Vinay Kumar Gond.*  
-*Related Capabilities: [Distributed Systems](/projects/), [Technical Arsenal](/technicalskills/)*
+### Research principles
+
+Across all studies, the same discipline applies:
+
+- **Bounded claims** — document what happened, not what sounds impressive
+- **Explainability** — reviewers must understand how conclusions were reached
+- **Determinism where proof matters** — probabilistic tools stay in assistive roles
+- **Constraints as inputs** — platform policy, legal context, and privacy shape design
+
+**Contact:** [vinay@exitprotocols.com](mailto:vinay@exitprotocols.com) · [LinkedIn](https://linkedin.com/in/vinaygo) · [GitHub](https://github.com/Vinaygond)
+
+*Last updated: July 2026*
