@@ -94,14 +94,9 @@ Structured case study of how Hydra / XLeadScraper scaled commercially and failed
 
 **Primary source (C&D correspondence):**
 
-<p class="cd-evidence-grid">
-  <a href="/img/cd-email-page1.jpg" target="_blank" rel="noopener">
-    <img src="/img/cd-email-page1.jpg" alt="Cease-and-desist notice page 1" class="cd-evidence-img" loading="lazy">
-  </a>
-  <a href="/img/cd-email-page2.jpg" target="_blank" rel="noopener">
-    <img src="/img/cd-email-page2.jpg" alt="Cease-and-desist notice page 2" class="cd-evidence-img" loading="lazy">
-  </a>
-</p>
+![Cease-and-desist notice — page 1](/img/cd-email-page1.jpg)
+
+![Cease-and-desist notice — page 2](/img/cd-email-page2.jpg)
 
 [GitHub](https://github.com/Vinaygond/The-500K-C-D-Report) · [Blog summary](/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) · [Technical deep-dive](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/) · [Author page (report site)](https://github.com/Vinaygond/The-500K-C-D-Report/blob/main/founder.html)
 

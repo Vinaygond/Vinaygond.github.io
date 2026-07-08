@@ -8,8 +8,6 @@ description: "A bounded case study: ~$500k ARR in six months, 2M+ requests/day a
 image: /img/cd-email-page1.jpg
 tags: [distributed-systems, business, compliance, engineering]
 permalink: /2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/
-document_preview: true
-preview_image: /img/cd-email-page2.jpg
 ---
 
 ## Executive summary
@@ -73,14 +71,9 @@ The real cost was not the letter. It was **trust**: 30+ customers who chose my a
 
 Screenshots from the November 2024 legal notice — included as primary-source context for this postmortem. Personal addresses and unrelated identifiers are redacted in the originals.
 
-<p class="cd-evidence-grid">
-  <a href="/img/cd-email-page1.jpg" target="_blank" rel="noopener">
-    <img src="/img/cd-email-page1.jpg" alt="Cease-and-desist email from X legal team, page 1" class="cd-evidence-img" loading="lazy">
-  </a>
-  <a href="/img/cd-email-page2.jpg" target="_blank" rel="noopener">
-    <img src="/img/cd-email-page2.jpg" alt="Cease-and-desist email from X legal team, page 2" class="cd-evidence-img" loading="lazy">
-  </a>
-</p>
+![Cease-and-desist email from 𝕏 legal team — page 1](/img/cd-email-page1.jpg)
+
+![Cease-and-desist email from 𝕏 legal team — page 2](/img/cd-email-page2.jpg)
 
 *These images document the reset event referenced throughout [The $500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report). They are shared for engineering context, not as legal advice or an invitation to repeat V1 architecture.*
 
