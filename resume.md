@@ -14,101 +14,73 @@ subtitle: Distributed Systems Architect | Founder, Exit Protocol
 
 ## Summary
 
-Distributed systems architect and founder building software for high-stakes environments where scale, correctness, and trust all matter.
+Distributed systems architect and founder shipping under pressure: zero-to-revenue products, **2M+ requests/day** in production, and platform constraints turned into design inputs.
 
-My work spans forensic litigation intelligence, backend infrastructure, AI-assisted document processing, secure evidence workflows, and compliance-aware automation. I have built systems that reached millions of requests per day, generated roughly **$500k ARR**, and reduced financial tracing workflows from weeks to minutes through deterministic automation.
+Currently building **Exit Protocol**, a forensic litigation intelligence platform for asset tracing and financial discovery. Previously scaled **Hydra / XLeadScraper** to roughly **$500k ARR in six months**. Philosophy: **AI accelerates messy document work; deterministic systems handle proof**; compliance, security, and auditability are architecture requirements, not polish.
 
 ---
 
-## Core Strengths
+## Technical Skills
 
-**Systems:** Distributed systems, event-driven architecture, async orchestration, worker queues, rate control, fault isolation
+**Systems:** Distributed architecture, async orchestration, worker queues, rate control, fault isolation, traffic shaping, observability, forensic pipelines, evidence integrity
 
-**Backend:** Python, Django, FastAPI, Flask, Node.js, TypeScript, SQL, Bash
+**Stack:** Python (Django, FastAPI, AsyncIO), TypeScript, Node.js, SQL, Bash; PostgreSQL, Redis, Celery, Docker, Kubernetes, NGINX, AWS, GCP, OpenTelemetry
 
-**Infrastructure:** Docker, Kubernetes, Redis, Celery, PostgreSQL, MySQL, NGINX, AWS, GCP, DigitalOcean
-
-**Forensics:** Bank statement ingestion, OCR-assisted extraction, transaction classification, LIBR tracing, audit trails
-
-**Security:** AES-256 encryption concepts, SHA-256 evidence sealing, access control, matter-level data isolation
-
-**Product:** Founder-led execution, zero-to-revenue systems, compliance-aware architecture, technical strategy
+**Focus:** LIBR tracing, OCR/document ingestion, transaction normalization, SHA-256 snapshot integrity, AES-256 data protection, AI-assisted review, secure deployments
 
 ---
 
 ## Experience
 
 ### Founder & Systems Architect | Exit Protocol
-*2025 - Present*
+*2025 – Present · Remote*
 
-Building **Exit Protocol**, a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
+Forensic litigation intelligence for high-conflict divorce, asset tracing, and financial discovery. [exitprotocols.com](https://exitprotocols.com)
 
-- Designed a deterministic financial tracing engine for **Lowest Intermediate Balance Rule (LIBR)** analysis.
-- Built workflows for PDF bank statement ingestion, OCR-assisted extraction, and transaction normalization.
-- Developed AI-assisted review flows for categorization, case summaries, and communication support.
-- Designed cryptographic evidence sealing with SHA-256 hash records and reviewable processing history.
-- Built secure data-handling patterns for sensitive legal and financial records.
-- Architected the platform around a clear boundary: AI assists with messy documents; deterministic systems handle legal proof.
-
-**Stack:** Python, Django, PostgreSQL, Celery, Redis, Docker, OCR pipelines, AI APIs, cryptographic evidence workflows.
+- **LIBR Tracing Engine:** Deterministic Lowest Intermediate Balance Rule state-machine logic producing attorney-reviewable workpapers with visible strategy, ledger agreement, and source provenance.
+- **Evidence Pipeline:** OCR-assisted ingestion for PDF statements and discovery packets; normalized transactions into reviewable timelines.
+- **Integrity Layer:** SHA-256 snapshot sealing, exact file-hash verification, and processing history for tamper-evident outputs.
+- **Production Stack:** Django, PostgreSQL, Celery, Redis, Docker; hybrid LLM/OCR flows (Mistral, Gemini) with hard boundaries around deterministic legal math.
 
 ### Founder & Lead Architect | Hydra / XLeadScraper
-*2024 - 2025*
+*2024 – 2025 · Remote*
 
-Built and operated a high-throughput data infrastructure product that scaled from zero to roughly **$500k ARR in six months**.
+High-throughput data infrastructure; roughly **$500k ARR in six months**. [xleadscraper.com](https://xleadscraper.com)
 
-- Designed distributed worker pipelines capable of processing **millions of requests per day**.
-- Built orchestration around queues, worker isolation, rate control, retries, and operational monitoring.
-- Developed data-processing flows for lead qualification, filtering, and structured exports.
-- Operated production infrastructure across distributed workers, Redis, PostgreSQL, and automation services.
-- Learned the architectural cost of optimizing for speed without enough emphasis on durability, compliance, and long-term platform trust.
+- **Scale Engineering:** Queue-driven worker pools, proxy-aware request routing, and backpressure controls sustaining **2M+ requests/day** at peak.
+- **Platform Analysis:** Reverse-engineered rate-limiting and co-temporal detection patterns beyond simple volumetric caps.
+- **Intent Pipeline:** NLP scoring workflows shifting revenue from raw volume to higher-intent structured output.
+- **Compliance Pivot:** Rebuilt for network isolation and policy-aware architecture after late-2024 platform constraints.
 
-**Outcome:** The venture proved market demand and technical execution, then shaped my current engineering philosophy: constraints are part of the architecture.
+### Infrastructure & Systems Consulting
+*Ongoing · Remote*
 
-### Infrastructure and Systems Consulting
-*Ongoing*
-
-Advising and building around resilient automation, backend architecture, data processing, and technical due diligence.
-
-- Designed backend and data-processing workflows for high-throughput use cases.
-- Reviewed architecture for operational risk, scaling limits, and maintainability.
-- Helped translate product requirements into practical infrastructure plans.
-- Focused on systems that need reliability under business, legal, or adversarial pressure.
+Backend architecture, high-throughput data processing, technical due diligence, and resilient automation for teams under business, legal, or adversarial pressure.
 
 ---
 
-## Projects
+## Technical Publications
 
-### Exit Protocol
-*Forensic Litigation Intelligence*
+- **Nov 2025:** ["The $500K Mistake: A Technical Post-Mortem on Layer 4 Network Detection"](https://vinaygond.github.io/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) — [dev.to mirror](https://dev.to/vinaygond/the-500k-tool-that-got-me-a-cease-and-desist-from-40bk)
+- **Nov 2025:** ["How I Engineered 2M Requests/Day Under Platform Rate Constraints"](https://vinaygond.github.io/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
 
-- Automates financial discovery workflows for high-conflict litigation.
-- Converts messy bank statements and transaction records into structured, reviewable evidence.
-- Applies deterministic tracing rules for commingled asset analysis.
-- Produces audit-friendly outputs with cryptographic integrity records.
+---
 
-[View Live](https://exitprotocols.com) | [Architect Profile](https://exitprotocols.com/architect/) | [LIBR Demo](https://github.com/Vinaygond/libr-state-machine-demo) | [Case Study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
+## Selected Work
 
-### Hydra / XLeadScraper
-*High-Throughput Data Infrastructure*
-
-- Distributed data infrastructure product built around async workers, queueing, data enrichment, and operational isolation.
-- Reached roughly **$500k ARR** and processed millions of requests per day at peak.
-- Became the foundation for my current compliance-aware approach to systems design.
-
-[View Live](https://xleadscraper.com) | [Technical Postmortem](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+[LIBR state-machine demo](https://github.com/Vinaygond/libr-state-machine-demo) · [Architect profile](https://exitprotocols.com/architect/) · [Exit Protocol case study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
 
 ---
 
 ## Education
 
-**National Institute of Technology (NIT) Mizoram**
-Bachelor of Technology in Electronics & Communication, 2017-2019
+**National Institute of Technology (NIT) Mizoram**  
+Bachelor of Technology in Electronics & Communication, 2017–2019
 
-Left before degree completion to pursue practical engineering and founder-led product work.
+Left prior to degree conferral to pursue practical engineering challenges in the high-growth SaaS sector.
 
 ---
 
 ## Contact
 
-[Email](mailto:vinay@exitprotocols.com) | [Website](https://vinaygond.github.io) | [Exit Protocol](https://exitprotocols.com) | [Twitter](https://twitter.com/vvgond) | [LinkedIn](https://www.linkedin.com/in/vinaygo/) | [GitHub](https://github.com/Vinaygond)
+[Email](mailto:vinay@exitprotocols.com) · [Website](https://vinaygond.github.io) · [Exit Protocol](https://exitprotocols.com) · [Twitter](https://twitter.com/vvgond) · [LinkedIn](https://www.linkedin.com/in/vinaygo/) · [GitHub](https://github.com/Vinaygond)
