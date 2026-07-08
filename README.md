@@ -68,9 +68,10 @@ That lesson now shapes how I build.
 
 ## Featured Work
 
-- [Exit Protocol](https://exitprotocols.com) - forensic litigation intelligence for high-conflict financial cases.
-- [Personal site and case studies](https://vinaygond.github.io) - writing on distributed systems, legal-tech, and product lessons.
-- [XLeadScraper](https://xleadscraper.com) - high-throughput data infrastructure and automation lessons.
+- [Exit Protocol](https://exitprotocols.com) — forensic litigation intelligence for high-conflict financial cases.
+- [The $500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report) — public engineering postmortem (detection layers, V1/V2 pivot).
+- [Writing & case studies](https://vinaygond.github.io) — distributed systems, legal-tech, compliance-aware architecture.
+- [XLeadScraper](https://xleadscraper.com) — V2 product after the compliance pivot.
 
 ---
 

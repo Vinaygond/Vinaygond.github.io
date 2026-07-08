@@ -6,7 +6,7 @@ subtitle: Distributed Systems Architect
 
 I’m **Vinay Kumar Gond**, a distributed systems architect and founder building software for high-stakes environments where scale, correctness, and trust all matter at once.
 
-My work sits at the intersection of backend infrastructure, forensic financial intelligence, compliance-aware automation, and AI-assisted legal workflows. I am most interested in systems that have to survive pressure: messy data, adversarial behavior, platform constraints, legal scrutiny, and real users depending on the outcome.
+My work sits at the intersection of backend infrastructure, forensic financial intelligence, compliance-aware automation, and AI-assisted legal workflows. I am most interested in systems that have to survive pressure: messy data, platform constraints, legal scrutiny, and real users depending on the outcome.
 
 ### The Journey
 
@@ -26,11 +26,13 @@ After Hydra, I rebuilt my engineering philosophy around one principle:
 
 **Constraints are part of the architecture.**
 
-Today, I focus on systems that are not just powerful, but defensible. The goal is not to push infrastructure until it breaks. The goal is to design infrastructure that can keep working under legal, operational, and adversarial pressure.
+Today, I focus on systems that are not just powerful, but defensible. The goal is not to push infrastructure until it breaks. The goal is to design infrastructure that can keep working under legal, operational, and platform pressure.
 
 That philosophy now drives my work on **Exit Protocol**, a forensic litigation intelligence platform for high-conflict divorce, asset tracing, and financial discovery.
 
-Exit Protocol turns messy financial records into structured, attorney-reviewable evidence. It combines AI-assisted document processing with deterministic financial tracing, SHA-256 snapshot integrity, and secure deployment models for sensitive legal data. Outputs are structured review material for counsel and retained experts — not legal advice, expert opinion, or court filings.
+Exit Protocol turns messy financial records into structured, attorney-reviewable evidence. It combines AI-assisted document processing with deterministic LIBR tracing, SHA-256 snapshot integrity, and secure deployment models for sensitive legal data. Outputs are structured review material for counsel and retained experts — not legal advice, expert opinion, or court filings.
+
+I also maintain [**The $500K C&D Report**](https://github.com/Vinaygond/The-500K-C-D-Report) as a public engineering artifact — detection layers, V1/V2 pivot, and lessons portable to any high-throughput platform system.
 
 The core belief behind it is simple:
 

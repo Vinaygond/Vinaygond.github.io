@@ -51,7 +51,19 @@ It also became an important architectural lesson: throughput is not the same as 
 
 **Tech Stack:** `Python` `AsyncIO` `Redis` `PostgreSQL` `Celery` `TypeScript` `Node.js`
 
-[View Project](https://xleadscraper.com) | [$500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report) | [Technical Postmortem](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+[View Project](https://xleadscraper.com) | [$500K C&D Report (GitHub)](https://github.com/Vinaygond/The-500K-C-D-Report) | [Postmortem post](/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) | [Detection layers deep-dive](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+
+<br/>
+
+## The $500K Cease-and-Desist Report
+
+**Public Engineering Postmortem**
+
+Structured case study documenting how Hydra / XLeadScraper reached ~$500k ARR and 2M+ requests/day, why four-layer platform detection ended V1, and what the V2 compliance pivot teaches builders.
+
+**Includes:** Interactive HTML report, `REPORT.md`, detection-layer model, V1/V2 comparison, builder decision framework, timeline, FAQ.
+
+[GitHub repo](https://github.com/Vinaygond/The-500K-C-D-Report) | [Blog summary](/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) | [Technical deep-dive](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
 
 <br/>
 

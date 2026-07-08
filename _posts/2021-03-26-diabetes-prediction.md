@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Diabetes Prediction
-subtitle: KNN Model for diabetes prediction
+subtitle: KNN classifier weekend project (2021)
 cover-img: img/Diabetes-Prediction-Using-Data-Mining.jpg
-tags: [Diabetes, data science]
-
+tags: [machine-learning, data science]
 ---
 
-Diabetes Prediction is my weekend practice project. In this model I used KNN Neighbors Classifier to trained model that is used to predict the positive or negative result. Given set of inputs are BMI(Body Mass Index),BP(Blood Pressure),Glucose Level,Insulin Level based on this features it predict whether you have diabetes or not.
+*Weekend practice project from 2021.*
 
-[Go and check it out](https://github.com/Vinaykumargond/KNN-Predict-diabetes)
+A K-Nearest Neighbors classifier trained on BMI, blood pressure, glucose, and insulin features to predict diabetes risk. Simple supervised-learning exercise — useful for practicing feature selection and model evaluation before production ML boundaries (where probabilistic outputs must stay out of legal proof paths).
+
+[View on GitHub](https://github.com/Vinaykumargond/KNN-Predict-diabetes)

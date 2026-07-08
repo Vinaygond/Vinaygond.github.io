@@ -304,7 +304,7 @@ Systems design and technical strategy work across distributed systems, automatio
 
 I build systems that turn messy real-world problems into reliable software pipelines.
 
-I am strongest when the work involves scale, sensitive data, adversarial conditions, legal or financial consequences, and the need to ship something real instead of just talking about architecture.
+I am strongest when the work involves scale, sensitive data, high-pressure constraints, legal or financial consequences, and the need to ship something real instead of just talking about architecture.
 
 **Learn what the problem demands. Use what is proven. Build what lasts.**
 

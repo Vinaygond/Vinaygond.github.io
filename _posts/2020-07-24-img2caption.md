@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Object Detection
+subtitle: Custom object detection experiments (2020)
 image: img/img.jpg
-image: img/img.jpg
-subtitle: Detecting your custom objects!
-tags: [img2caption, data science]
+tags: [computer-vision, data science]
 ---
 
-Object detection is probably the most profound aspect of computer vision due the number practical use cases. Object detection refers to the capability of computer and software systems to locate objects in an image/scene and identify each object. Object detection has been widely used for face detection, vehicle detection, pedestrian counting, web images, security systems and driverless cars. There are many ways object detection can be used as well in many fields of practice. Like every other computer technology, a wide range of creative and amazing uses of object detection will definitely come from the efforts of computer programmers and software developers.
-Getting to use modern object detection methods in applications and systems, as well as building new applications based on these methods is not a straight forward task. Early implementations of object detection involved the use of classical algorithms, like the ones supported in OpenCV, the popular computer vision library. However, these classical algorithms could not achieve enough performance to work under different conditions.
+*Early learning project from 2020 — computer vision before forensic document pipelines.*
 
-[Go check out]()
+Object detection locates and classifies objects in images. Early implementations used classical CV (OpenCV); modern stacks use deep learning. This project explored custom object detection as a weekend experiment.
+
+Practical applications span security, robotics, accessibility, and document layout analysis — the last of which later informed OCR and table-extraction work in Exit Protocol.
+
+[View on GitHub](https://github.com/Vinaygond)

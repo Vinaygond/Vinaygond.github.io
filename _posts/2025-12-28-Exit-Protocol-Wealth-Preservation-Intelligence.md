@@ -150,7 +150,7 @@ It is also “Can we prove how it got there?”
 
 ---
 
-### Zero-Trust Evidence Vault
+### Secure Evidence Vault
 
 Exit Protocol is built for sensitive financial and legal data.
 
@@ -233,7 +233,7 @@ Exit Protocol takes a different path.
 - Human reviewers remain in control.
 - Every major conclusion should be explainable.
 
-I built Exit Protocol with the mindset of an adversarial engineer turned defender. The same instincts that help systems survive platform pressure, hostile environments, and edge cases are useful in litigation technology.
+I built Exit Protocol with the same discipline learned from high-throughput systems that failed on compliance boundaries: blast-radius control, deterministic outputs, and evidence you can explain after the fact. Litigation technology needs that rigor more than it needs black-box AI summaries.
 
 This is infrastructure for people who cannot afford vague answers.
 
@@ -252,5 +252,7 @@ Exit Protocol exists to make financial truth faster to uncover, easier to verify
 ---
 
 *Sovereign Mode available for enterprise law firms and sensitive matters.*
+
+**Related:** [$500K C&D engineering postmortem](https://github.com/Vinaygond/The-500K-C-D-Report) · [LIBR state-machine demo](https://github.com/Vinaygond/libr-state-machine-demo) · [Research page](/research/)
 
 *Questions?* [vinay@exitprotocols.com](mailto:vinay@exitprotocols.com)

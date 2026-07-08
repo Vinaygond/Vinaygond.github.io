@@ -55,20 +55,21 @@ High-throughput data infrastructure; roughly **$500k ARR in six months**. [xlead
 ### Infrastructure & Systems Consulting
 *Ongoing · Remote*
 
-Backend architecture, high-throughput data processing, technical due diligence, and resilient automation for teams under business, legal, or adversarial pressure.
+Backend architecture, high-throughput data processing, technical due diligence, and resilient automation for teams under business, legal, or operational pressure.
 
 ---
 
 ## Technical Publications
 
-- **Nov 2025:** ["The $500K Mistake: A Technical Post-Mortem on Layer 4 Network Detection"](https://vinaygond.github.io/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) — [dev.to mirror](https://dev.to/vinaygond/the-500k-tool-that-got-me-a-cease-and-desist-from-40bk)
-- **Nov 2025:** ["How I Engineered 2M Requests/Day Under Platform Rate Constraints"](https://vinaygond.github.io/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+- **Dec 2025:** [The $500K Cease-and-Desist: A Distributed Systems Postmortem](https://vinaygond.github.io/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) — [structured report](https://github.com/Vinaygond/The-500K-C-D-Report)
+- **Nov 2025:** [Platform Rate Limits Are Multi-Dimensional: A 2M Request/Day Postmortem](https://vinaygond.github.io/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/)
+- **Dec 2025:** [Exit Protocol: Forensic Litigation Intelligence](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
 
 ---
 
 ## Selected Work
 
-[LIBR state-machine demo](https://github.com/Vinaygond/libr-state-machine-demo) · [Architect profile](https://exitprotocols.com/architect/) · [Exit Protocol case study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
+[LIBR state-machine demo](https://github.com/Vinaygond/libr-state-machine-demo) · [Architect profile](https://exitprotocols.com/architect/) · [$500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report) · [Exit Protocol case study](/2025-12-28-Exit-Protocol-Wealth-Preservation-Intelligence/)
 
 ---
 
