@@ -180,6 +180,12 @@ This case study documents what happened when a distributed data product scaled f
 
 The cease-and-desist was not the story. It was the invoice for architectural debt.
 
+**Primary source — November 2024 legal notice (redacted screenshots):**
+
+![Cease-and-desist correspondence — page 1](/img/cd-email-page1.jpg)
+
+![Cease-and-desist correspondence — page 2](/img/cd-email-page2.jpg)
+
 ### The four-layer model
 
 Platform enforcement stacks — beating Layer 1 alone does not create durability:

@@ -92,6 +92,12 @@ Structured case study of how Hydra / XLeadScraper scaled commercially and failed
 
 **Portable to Exit Protocol:** blast-radius control, deterministic outputs, reviewable artifacts, SHA-256 integrity, AI/determinism boundaries.
 
+**Primary source (C&D correspondence):**
+
+![Cease-and-desist notice — page 1](/img/cd-email-page1.jpg)
+
+![Cease-and-desist notice — page 2](/img/cd-email-page2.jpg)
+
 [GitHub](https://github.com/Vinaygond/The-500K-C-D-Report) · [Blog summary](/2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/) · [Technical deep-dive](/2025-11-16-how-i-engineered-a-system-that-bypass-twitter-rate-limits/) · [Author page (report site)](https://github.com/Vinaygond/The-500K-C-D-Report/blob/main/founder.html)
 
 <br/>

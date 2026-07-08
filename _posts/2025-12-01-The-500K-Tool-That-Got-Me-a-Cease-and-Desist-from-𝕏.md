@@ -5,7 +5,7 @@ subtitle: "What happened when throughput outran compliance, isolation, and blast
 date: 2025-12-01
 author: Vinay Kumar Gond
 description: "A bounded case study: ~$500k ARR in six months, 2M+ requests/day at peak, and the platform reset that followed."
-image: /img/img.jpg
+image: /img/cd-email-page1.jpg
 tags: [distributed-systems, business, compliance, engineering]
 permalink: /2025-12-01-The-500K-Tool-That-Got-Me-a-Cease-and-Desist-from-X/
 ---
@@ -66,6 +66,16 @@ The legal notice forced a hard stop — not just on features, but on design phil
 The C&D cited unauthorized scraping, Terms of Service violations, and platform manipulation. My account was banned. Shared developer tokens were revoked. Customers who depended on the same infrastructure were suspended.
 
 The real cost was not the letter. It was **trust**: 30+ customers who chose my architecture and paid the price when the network-level correlation layer fired.
+
+### Cease-and-desist correspondence (redacted preview)
+
+Screenshots from the November 2024 legal notice — included as primary-source context for this postmortem. Personal addresses and unrelated identifiers are redacted in the originals.
+
+![Cease-and-desist email from 𝕏 legal team — page 1](/img/cd-email-page1.jpg)
+
+![Cease-and-desist email from 𝕏 legal team — page 2](/img/cd-email-page2.jpg)
+
+*These images document the reset event referenced throughout [The $500K C&D Report](https://github.com/Vinaygond/The-500K-C-D-Report). They are shared for engineering context, not as legal advice or an invitation to repeat V1 architecture.*
 
 ---
 
