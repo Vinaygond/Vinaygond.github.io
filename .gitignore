@@ -4,9 +4,3 @@
 *.out
 *.synctex.gz
 tools/
-_site/
-.jekyll-cache/
-.bundle/
-vendor/
-node_modules/
-qa-artifacts/

@@ -1,35 +1,44 @@
-<!doctype html>
+---
+common-css:
+- "/css/bootstrap.min.css"
+- "/css/bootstrap-social.css"
+- "/css/main.css"
+- "/css/particle-js-style.css"
+common-ext-css:
+- "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+common-googlefonts:
+- "Lora:400,700,400italic,700italic"
+- "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+common-js:
+- "/js/jquery-1.12.4.min.js"
+- "/js/bootstrap.min.js"
+- "/js/main.js"
+- "/js/particles.min.js"
+- "/js/particles-config.js"
+---
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title | default: site.title | escape }} | Vinay Gond</title>
-<meta name="description" content="{{ page.description | default: page.subtitle | default: site.description | escape }}">
-<link rel="canonical" href="{{ page.url | absolute_url }}">
-<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
-<meta property="og:description" content="{{ page.description | default: page.subtitle | default: site.description | escape }}">
-<meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
-<link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
-<link rel="alternate" type="application/rss+xml" title="Vinay Gond — writing" href="{{ '/feed.xml' | relative_url }}">
-</head>
+<!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+{% include head.html %}
+
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-<a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Vinay Gond, home">VG<span>Vinay Gond</span></a>
-<nav aria-label="Main navigation">
-{% assign nav_urls = '/projects/|/technicalskills/|/research/|/aboutme/|/resume/' | split: '|' %}
-{% assign nav_names = 'Work|Skills|Writing|About|Résumé' | split: '|' %}
-{% for item in nav_urls %}<a href="{{ item | relative_url }}"{% if page.url == item %} aria-current="page"{% endif %}>{{ nav_names[forloop.index0] }}</a>{% endfor %}
-</nav>
-</header>
-{{ content }}
-<footer class="site-footer">
-<div><strong>Have a backend or product engineering role in mind?</strong><br><a href="mailto:vinay@exitprotocols.com">vinay@exitprotocols.com</a></div>
-<div class="footer-links"><a href="https://github.com/Vinaygond">GitHub</a><a href="https://www.linkedin.com/in/vinaygo/">LinkedIn</a><a href="{{ '/Resume.pdf' | relative_url }}">PDF résumé</a></div>
-<small>© {{ site.time | date: '%Y' }} Vinay Kumar Gond · Built with Jekyll. No tracking or third-party scripts.</small>
-</footer>
+
+  <div class="mobile-js-hide">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+  </div>
+
+  {% include gtm_body.html %}
+
+  {% include nav.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include footer-scripts.html %}
+
 </body>
+
 </html>
