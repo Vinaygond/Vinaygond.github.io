@@ -5,7 +5,7 @@ baseurl: ''
 title: Vinay Kumar Gond
 
 
-description: Distributed systems architect and founder of Exit Protocol. Forensic financial intelligence, compliance-aware infrastructure, and high-throughput backend systems.
+description: Python and Django engineer building document workflows, reviewer-controlled financial records and reproducible calculations. Projects, public code and resume.
 
 
 navbar-links:
@@ -89,6 +89,14 @@ defaults:
 link-tags: true
 
 exclude:
+  - docs
+  - scripts
+  - package.json
+  - package-lock.json
+  - node_modules
+  - qa-artifacts
+  - build-resume.ps1
+  - tools
   - CHANGELOG.md
   - CNAME
   - Dockerfile

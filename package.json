@@ -1,0 +1,10 @@
+{
+  "name": "vinay-gond-portfolio-checks",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/check-content.cjs",
+    "resume": "node scripts/build-resume.cjs",
+    "test:site": "node scripts/check-site.cjs"
+  },
+  "devDependencies": { "playwright": "1.55.1" }
+}
